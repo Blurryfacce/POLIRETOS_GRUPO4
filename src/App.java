@@ -1,6 +1,5 @@
 public class App {
     public static void main(String[] args) throws Exception {
-        System.out.println("Hello, Grupo 4");
 
         //Ejercicio 1
         //Ejercicio 2
@@ -15,4 +14,5 @@ public class App {
         //Ejercicio 11
         //Ejercicio 12
     }
+
 }
