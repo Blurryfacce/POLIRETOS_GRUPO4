@@ -3,6 +3,8 @@ import java.util.Scanner;
 public class App {
 
     public static void main(String[] args) throws Exception {
+        boolean bandera = true;
+        int numeroVeces = 0;
         String red = "\033[31m";
         String yellow = "\033[33m";
         String cyan = "\033[36m";
@@ -14,9 +16,20 @@ public class App {
 
         esperarTecla();
         limpiarConsola();
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Ingresa el numero de elementos hasta el cual deseas hacer las secuencias ");
-        int numeroVeces = Integer.parseInt(sc.nextLine());
+
+        // Control de posibles errores
+        while (bandera==true) {
+            try {
+                Scanner sc = new Scanner(System.in);
+                System.out.println("Ingresa el numero de elementos hasta el cual deseas hacer las secuencias ");
+                numeroVeces = Integer.parseInt(sc.nextLine());
+                bandera = false;
+            } catch (NumberFormatException e) {
+                System.out.println("Por favor ingrese un numero entero");
+                bandera = true;
+            }
+        }
+
         // Ejercicio 1
         // Ejercicio 2
         // Ejercicio 3
