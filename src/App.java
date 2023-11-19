@@ -34,7 +34,7 @@ public class App {
         oCodeCrewSerie8.mostrarSerie8While(numeroVeces);
         esperarTecla();
         limpiarConsola();
-        // Ejercicio 9
+        // Ejercicio 9 Sebastián Ramos
         CodeCrewSerie9 oCodeCrewSerie9 = new CodeCrewSerie9();
         System.out.println("----Serie 9---For----");
         oCodeCrewSerie9.SerieFor(numeroVeces);
@@ -44,7 +44,7 @@ public class App {
         oCodeCrewSerie9.SerieWhile(numeroVeces);
         esperarTecla();
         limpiarConsola();
-        // Ejercicio 10
+        // Ejercicio 10 Sebastián Sarasti y Sebastián Ramos
         CodeCrewSerie10 oCodeCrewSerie10 = new CodeCrewSerie10();
         System.out.println("----Serie 10---For----");
         oCodeCrewSerie10.mostrarSerie10For(numeroVeces);
