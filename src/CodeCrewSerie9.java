@@ -7,6 +7,15 @@ public byte numeroInicio= 2;
             numeroSiguiente*=2;
         }
     }
-    
+    public void SeriDoWhile(int numeroVeces){
+        byte numeroSiguiente= this.numeroInicio;
+        byte i=0; 
+        do {
+            i++;
+            System.out.println(numeroSiguiente);
+            numeroSiguiente*=2;
+        } while (i<numeroVeces);
+    }
+
 
 }
