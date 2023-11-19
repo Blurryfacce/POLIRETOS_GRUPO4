@@ -15,7 +15,8 @@ public class App {
         oCodeCrewSerie9.SerieFor(5 );
         System.out.println("*************");
         oCodeCrewSerie9.SeriDoWhile(5);
-        
+        System.out.println("*************");
+        oCodeCrewSerie9.SerieWhile(5);
 
         //Ejercicio 10
         //Ejercicio 11
