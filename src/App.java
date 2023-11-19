@@ -11,6 +11,13 @@ public class App {
         //Ejercicio 7
         //Ejercicio 8
         //Ejercicio 9
+        CodeCrewSerie9 oCodeCrewSerie9= new CodeCrewSerie9();
+        oCodeCrewSerie9.SerieFor(5 );
+        System.out.println("*************");
+        oCodeCrewSerie9.SeriDoWhile(5);
+        System.out.println("*************");
+        oCodeCrewSerie9.SerieWhile(5);
+
         //Ejercicio 10
         //Ejercicio 11
         //Ejercicio 12
