@@ -2,6 +2,8 @@ import java.util.Scanner;
 
 public class App {
 
+    private static Scanner sc = new Scanner(System.in);
+
     public static void main(String[] args) throws Exception {
         boolean bandera = true;
         int numeroVeces = 0;
@@ -20,7 +22,6 @@ public class App {
         // Control de posibles errores
         while (bandera==true) {
             try {
-                Scanner sc = new Scanner(System.in);
                 System.out.println("Ingresa el numero de elementos hasta el cual deseas hacer las secuencias ");
                 numeroVeces = Integer.parseInt(sc.nextLine());
                 bandera = false;
@@ -83,8 +84,7 @@ public class App {
 
     public static void esperarTecla() {
         System.out.println("Presiona Enter para continuar...");
-        Scanner scanner = new Scanner(System.in);
-        scanner.nextLine(); // Espera a que el usuario presione Enter
+        sc.nextLine(); // Espera a que el usuario presione Enter
     }
 
     /**
