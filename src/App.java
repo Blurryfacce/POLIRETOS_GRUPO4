@@ -36,11 +36,11 @@ public class App {
         limpiarConsola();
         // Ejercicio 9
         CodeCrewSerie9 oCodeCrewSerie9 = new CodeCrewSerie9();
-        System.out.println("*************");
+        System.out.println("----Serie 9---For----"");
         oCodeCrewSerie9.SerieFor(numeroVeces);
-        System.out.println("*************");
+        System.out.println("----Serie 9---Do While----");
         oCodeCrewSerie9.SeriDoWhile(numeroVeces);
-        System.out.println("*************");
+        System.out.println("----Serie 9---While----");
         oCodeCrewSerie9.SerieWhile(numeroVeces);
         esperarTecla();
         limpiarConsola();
@@ -65,8 +65,10 @@ public class App {
         Scanner scanner = new Scanner(System.in);
         scanner.nextLine(); // Espera a que el usuario presione Enter
     }
-
+    /**
+    * Esta funcion sirve para limpiar la consola, a través de comandos de windows.
+    */
     public static void limpiarConsola() throws Exception {
-        new ProcessBuilder("cmd", "/c", "cls").inheritIO().start().waitFor();
+        new ProcessBuilder("cmd", "/c", "cls").inheritIO().start().waitFor(); 
     }
 }
