@@ -3,7 +3,7 @@
  * (CodeCrew) sebastian.sarasti01@epn.edu.ec, sebastian.ramos01@epn.edu.ec
  * Version 1.0
  */
-//S10: 3, 9, 27, 81, 243, 729, 2187, ...
+
 //Esta clase realiza una secuencia que empieza en el 3 y va multiplicando por 3.
 public class CodeCrewSerie10 {
     /**
