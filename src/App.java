@@ -33,7 +33,16 @@ public class App {
         // Ejercicio 1
         // Ejercicio 2
         // Ejercicio 3
-        // Ejercicio 4
+        // Ejercicio 4 Christian Pisco
+        CodeCrewSerie4 oCodeCrewSerie4 = new CodeCrewSerie4();
+        System.out.println("----Serie 4---For----");
+        oCodeCrewSerie4.mostrarSerie4For(numeroVeces);
+        System.out.println("----Serie 4---Do While----");
+        oCodeCrewSerie4.mostrarSerie4DoWhile(numeroVeces);
+        System.out.println("----Serie 4---While----");
+        oCodeCrewSerie4.mostrarSerie4While(numeroVeces);
+        esperarTecla();
+        limpiarConsola();
         // Ejercicio 5
         // Ejercicio 6
         // Ejercicio 7
@@ -47,17 +56,17 @@ public class App {
         oCodeCrewSerie8.mostrarSerie8While(numeroVeces);
         esperarTecla();
         limpiarConsola();
-        // Ejercicio 9
+        // Ejercicio 9 Sebastián Ramos
         CodeCrewSerie9 oCodeCrewSerie9 = new CodeCrewSerie9();
-        System.out.println("*************");
+        System.out.println("----Serie 9---For----");
         oCodeCrewSerie9.SerieFor(numeroVeces);
-        System.out.println("*************");
+        System.out.println("----Serie 9---Do While----");
         oCodeCrewSerie9.SeriDoWhile(numeroVeces);
-        System.out.println("*************");
+        System.out.println("----Serie 9---While----");
         oCodeCrewSerie9.SerieWhile(numeroVeces);
         esperarTecla();
         limpiarConsola();
-        // Ejercicio 10
+        // Ejercicio 10 Sebastián Sarasti y Sebastián Ramos
         CodeCrewSerie10 oCodeCrewSerie10 = new CodeCrewSerie10();
         System.out.println("----Serie 10---For----");
         oCodeCrewSerie10.mostrarSerie10For(numeroVeces);
@@ -67,10 +76,9 @@ public class App {
         oCodeCrewSerie10.mostrarSerie10While(numeroVeces);
         esperarTecla();
         limpiarConsola();
-
-        // Ejercicio 11
         // Ejercicio 12
 
+        sc.close(); // Cierre del Scanner
     }
 
     public static void esperarTecla() {
@@ -79,7 +87,10 @@ public class App {
         scanner.nextLine(); // Espera a que el usuario presione Enter
     }
 
+    /**
+    * Esta funcion sirve para limpiar la consola, a través de comandos de windows.
+    */
     public static void limpiarConsola() throws Exception {
-        new ProcessBuilder("cmd", "/c", "cls").inheritIO().start().waitFor();
+        new ProcessBuilder("cmd", "/c", "cls").inheritIO().start().waitFor(); 
     }
 }
