@@ -4,6 +4,7 @@ public class App {
 
     public static void main(String[] args) throws Exception {
         System.out.println("Hello, Grupo 4");
+
         Scanner sc = new Scanner(System.in);
         System.out.println("Ingresa el numero de elementos hasta el cual deseas hacer las secuencias ");
         int numeroVeces = Integer.parseInt(sc.nextLine());
@@ -22,9 +23,16 @@ public class App {
         oCodeCrewSerie8.mostrarSerie8DoWhile(numeroVeces);
         System.out.println("----Serie 8---While----");
         oCodeCrewSerie8.mostrarSerie8While(numeroVeces);
-        // Ejercicio 9
-        // Ejercicio 10
-        // Ejercicio 11
-        // Ejercicio 12
+        //Ejercicio 9
+        CodeCrewSerie9 oCodeCrewSerie9= new CodeCrewSerie9();
+        oCodeCrewSerie9.SerieFor(numeroVeces );
+        System.out.println("*************");
+        oCodeCrewSerie9.SeriDoWhile(numeroVeces);
+        System.out.println("*************");
+        oCodeCrewSerie9.SerieWhile(numeroVeces);
+        //Ejercicio 10
+        //Ejercicio 11
+        //Ejercicio 12
+
     }
 }
