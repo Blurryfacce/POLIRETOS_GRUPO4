@@ -10,6 +10,6 @@ public class CodeCrewSerie8 {
  * 
  */
     public mostrarSerie8(numeroVeces){
-s
+
     }
 }
