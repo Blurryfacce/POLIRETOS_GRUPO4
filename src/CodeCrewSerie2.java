@@ -25,7 +25,7 @@ public class CodeCrewSerie2 {
      *                    elementos.
      */
     public void showSerie2While(int numeroVeces) {
-        int i = 0;
+        int i = 1;
 
         while (i < numeroVeces) {
             System.out.print((i % 2 == 0) ? 0 + " " : i + " " );
@@ -42,7 +42,7 @@ public class CodeCrewSerie2 {
      *                    elementos.
      */
     public void showSerie2DoWhile(int numeroVeces) {
-        int i = 0;
+        int i = 1;
 
         do {
             System.out.print((i % 2 == 0) ? 0 + " " : i + " " );
