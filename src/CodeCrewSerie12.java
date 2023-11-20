@@ -32,6 +32,12 @@ public class CodeCrewSerie12
         aumento = 4;
         System.out.println(); // Imprime un salto de linea
     }
+    /**
+     * Este método imprime la serie mediante un Do-While
+     * 
+     * @param numeroVeces este parámetro permite limitar la serie a un numero de
+     *                    elementos
+     */
     public void mostrarSerie12DoWhile(int numeroVeces)
     {
         //Variable de Inicio
@@ -45,6 +51,28 @@ public class CodeCrewSerie12
         } while (i<numeroVeces);
         // Retorna las variables a sus valores iniciales
         numeroInicio = 2;
+        aumento = 4;
+        System.out.println(); // Imprime un salto de linea
+    }
+    /**
+     * Este método imprime la serie mediante un While
+     * 
+     * @param numeroVeces este parámetro permite limitar la serie a un numero de
+     *                    elementos
+     */
+    public void mostrarSerie12While(int numeroVeces)
+    {
+        //Variable de Inicio
+        int i=0;
+        while (i < numeroVeces) 
+        {
+            System.out.print(numeroInicio + " ");
+            numeroInicio += aumento; // El numero aumenta segun los numeros pares
+            aumento      += 2;       // El aumento suma 2
+            i++;
+        }
+        // Retorna las variables a sus valores iniciales
+        numeroInicio = 2; 
         aumento = 4;
         System.out.println(); // Imprime un salto de linea
     }
