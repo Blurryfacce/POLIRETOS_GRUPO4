@@ -46,10 +46,10 @@ public class App {
         CodeCrewSerie2 oCodeCrewSerie2 = new CodeCrewSerie2();
         System.out.println("----Serie 2---For----");
         oCodeCrewSerie2.showSerie2For(numeroVeces);
-        // System.out.println("----Serie 2---Do While----");
-        // oCodeCrewSerie2.showSerie2DoWhile(numeroVeces);
-        // System.out.println("----Serie 2---While----");
-        // oCodeCrewSerie2.showSerie2While(numeroVeces);
+        System.out.println("----Serie 2---Do While----");
+        oCodeCrewSerie2.showSerie2DoWhile(numeroVeces);
+        System.out.println("----Serie 2---While----");
+        oCodeCrewSerie2.showSerie2While(numeroVeces);
         esperarTecla();
         limpiarConsola();
 
