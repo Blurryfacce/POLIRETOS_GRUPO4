@@ -44,9 +44,40 @@ public class App {
         oCodeCrewSerie4.mostrarSerie4While(numeroVeces);
         esperarTecla();
         limpiarConsola();
-        // Ejercicio 5
-        // Ejercicio 6
-        // Ejercicio 7
+         // Ejercicio 5 Jhair Zambrano
+         CodeCrewSerie5 oCodeCrewSerie5 = new CodeCrewSerie5();
+         System.out.println("-------Serie 5------For-----");
+         oCodeCrewSerie5.mostrarSerie5For(numeroVeces);
+         // CICLO DO WHILE
+         System.out.println("-------Serie 5------DoWhile-----");
+         oCodeCrewSerie5.mostrarSerie5DoWhile(numeroVeces);
+         // while
+         System.out.println("-------Serie 5------While-----");
+         oCodeCrewSerie5.mostrarSeries5While(numeroVeces);
+         esperarTecla();
+         limpiarConsola();
+ 
+         // Ejercicio 6
+         CodeCrewSerie6 oCodeCrewSerie6 = new CodeCrewSerie6();
+         System.out.println("----Serie 6---For----");
+         oCodeCrewSerie6.mostrarSerie6for(numeroVeces);
+         System.out.println("----Serie 6---Dowhile----");
+         oCodeCrewSerie6.mostrarSerie6DoWhile(numeroVeces);
+         System.out.println("----Serie 6---While----");
+         oCodeCrewSerie6.mostrarSeries6While(numeroVeces);
+         esperarTecla();
+         limpiarConsola();
+ 
+         // Ejercicio 7 Isaac Proaùo
+         CodeCrewSerie7 oCodeCrewSerie7 = new CodeCrewSerie7();
+         System.out.println("----Serie 7---For----");
+         oCodeCrewSerie7.mostrarSerie7for(numeroVeces);
+         System.out.println("----Serie 7---DoWhile----");
+         oCodeCrewSerie7.mostrarSerie7Dowhile(numeroVeces);
+         System.out.println("----Serie 7---While----");
+         oCodeCrewSerie7.mostrarSerie7While(numeroVeces);
+         esperarTecla();
+         limpiarConsola();
         // Ejercicio 8 Sebastian Sarasti
         CodeCrewSerie8 oCodeCrewSerie8 = new CodeCrewSerie8();
         System.out.println("----Serie 8---For----");
