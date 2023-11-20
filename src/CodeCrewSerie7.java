@@ -37,4 +37,18 @@ public class CodeCrewSerie7 {
         System.out.println();
     }
     
+/**
+ * Este método imprime la serie usando un ciclo While.
+ * @param numeroVeces: limita la serie a un número de elementos 
+ * @author Isaac Proaño 
+ */
+    public void MostrarSerie7While(int numeroVeces){
+        int numImprimir = 3;
+        while (numImprimir <= numeroVeces * 3) {
+            System.out.print(numImprimir + " ");
+            numImprimir += 3;
+        }
+        System.out.println();
+
+    }
 }

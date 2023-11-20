@@ -48,12 +48,17 @@ public class App {
         esperarTecla();
         limpiarConsola();
 
-        // Ejercicio 7
+        // Ejercicio 7 Isaac Proaño 
         CodeCrewSerie7 oCodeCrewSerie7 = new CodeCrewSerie7();
         System.out.println("----Serie 7---For----");
         oCodeCrewSerie7.MostrarSerie7for(numeroVeces);
+        System.out.println("----Serie 7---DoWhile----");
+        oCodeCrewSerie7.MostrarSerie7Dowhile(numeroVeces);
+        System.out.println("----Serie 7---While----");
+        
         esperarTecla();
         limpiarConsola();
+
 
         // Cierre del Scanner
     }
