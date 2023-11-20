@@ -24,17 +24,11 @@ public class CodeCrewSerie2 {
      * @param numeroVeces parámetro que limita la serie a un número específico de
      *                    elementos.
      */
-    public void mostrarSerie2While(int numeroVeces) {
+    public void showSerie2While(int numeroVeces) {
         int i = 0;
 
         while (i < numeroVeces) {
-            int num = i;
-            if (num%2==0) {
-                System.out.print(" 0 ");
-            }
-            else{
-                System.out.print(num);
-            }
+            System.out.print((i % 2 == 0) ? 0 + " " : i + " " );
             i++;
         }
 
@@ -47,17 +41,11 @@ public class CodeCrewSerie2 {
      * @param numeroVeces parámetro que limita la serie a un número específico de
      *                    elementos.
      */
-    public void mostrarSerie2DoWhile(int numeroVeces) {
+    public void showSerie2DoWhile(int numeroVeces) {
         int i = 0;
 
         do {
-            int num = i;
-            if (num%2==0) {
-                System.out.print(" 0 ");
-            }
-            else{
-                System.out.print(num);
-            }
+            System.out.print((i % 2 == 0) ? 0 + " " : i + " " );
             i++;
         } while (i < numeroVeces);
 
