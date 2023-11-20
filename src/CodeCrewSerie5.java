@@ -1,63 +1,68 @@
 /**
  * @author Jhair Zambrano
- *	NUMEROS PRIMOS con ciclo For
+ *
  */
 public class CodeCrewSerie5 {
 	
+	/**
+	 * Numeros primos con ciclos FOR
+	 * @param numVeces
+	 */
 	public void mostrarSerie5For(int numVeces) {
-		for (int numPrimo = 1; numVeces > 0; numVeces--, numPrimo++){
-			int numRealPrimo = 0;
-			
-			while(numPrimo <= numVeces) {
-				if (esPrimo(numPrimo)) {
-					 numRealPrimo = numPrimo;
-					 System.out.print(numRealPrimo + "  ");
-				}
-				numPrimo++;
+		int[] numerosPrimos = new int[numVeces]; // Se crea el array del tamano numVeces
+		int numerosPrimosImpresos = 0;
+		for (int numPrimo = 2; numerosPrimosImpresos < numVeces; numPrimo++) {
+			if (esPrimo(numPrimo)) {
+				numerosPrimos[numerosPrimosImpresos] = numPrimo;
+				numerosPrimosImpresos++;
 			}
-			
 		}
-		System.out.println();
+		for (int i = 0; i < numerosPrimosImpresos; i++) {
+			System.out.print(numerosPrimos[i] + " "); //Se almacena dentro de un array y este se va iterando en posiciones de acorde a los guardados
+		}
+		System.out.println(); //Salto de linea para la siguiente serie
 	}
 
 	/**
-	 * Numeros primos con ciclo Do-While
+	 * Numeros primos con Do While
 	 * @param numVeces
 	 */
-	
 	public void mostrarSerie5DoWhile(int numVeces) {
-		
-		int numPrimo = 1, numRealPrimo =0;
+		int [] numPrimos = new int [numVeces];
+		int numerosPrimosImpresos = 0, numPrimo = 2, i= 0;
 		do {
-			
-			if(esPrimo(numPrimo)) {
-				numRealPrimo = numPrimo;
-				System.out.print(numRealPrimo + "  ");
+			if (esPrimo(numPrimo)) {
+				numPrimos[numerosPrimosImpresos] = numPrimo;
+				numerosPrimosImpresos++;
 			}
-			
-			numVeces--; numPrimo++;
-		}while(numVeces >0);
+			numPrimo++;
+		} while (numerosPrimosImpresos < numVeces ); // Condicion a repetir
+		for(i =0; i < numerosPrimosImpresos; i++ ){
+			System.out.print(numPrimos[i]+ " ");
+		}
 		System.out.println();
-		
 	}
 	
 	/**
 	 * Numeros primos con ciclo WWhile
 	 * @param numVece
 	 */
-	public void mostrarSeries5While(int numVece) {
-		int numPrimo = 1, numRealPrimo = 0;
+	public void mostrarSeries5While(int numeroVeces) {
+		int [] numPrimos = new int [numeroVeces];
+		int numerosPrimosImpresos = 0,  numPrimo = 2;
 		
-		while(numVece >0) {
-			numVece --; numPrimo ++;
-			
-			if(esPrimo(numPrimo)) {
-				numRealPrimo = numPrimo;
+		while (numerosPrimosImpresos < numeroVeces) {
+			if(esPrimo(numPrimo)){
+				numPrimos[numerosPrimosImpresos] = numPrimo;
+				numerosPrimosImpresos++;
 			}
-			System.out.print(numRealPrimo + "  ");
-			
+			numPrimo++;
+		}
+		for(int i = 0; i < numerosPrimosImpresos; i++){
+			System.out.print(numPrimos[i] + " ");
 		}
 		System.out.println();
+
 	}
 	
 	/**
@@ -69,8 +74,8 @@ public class CodeCrewSerie5 {
 		if (num <= 1) {
 			return false;
 		}
-		for(int i=2;i*i<=num; i++) {
-			if(num %i ==0){
+		for(int i = 2; i*i <= num; i++) {
+			if(num % i == 0){
 			return false;
 			}
 		}
