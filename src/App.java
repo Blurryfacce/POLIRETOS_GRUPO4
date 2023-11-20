@@ -42,6 +42,15 @@ public class App {
         esperarTecla();
         limpiarConsola();
         // Ejercicio 2
+        CodeCrewSerie2 oCodeCrewSerie2 = new CodeCrewSerie2();
+        System.out.println("----Serie 2---For----");
+        oCodeCrewSerie2.mostrarSerie2For(numeroVeces);
+        System.out.println("----Serie 2---Do While----");
+        oCodeCrewSerie2.mostrarSerie2DoWhile(numeroVeces);
+        System.out.println("----Serie 2---While----");
+        oCodeCrewSerie2.mostrarSerie2While(numeroVeces);
+        esperarTecla();
+        limpiarConsola();
         // Ejercicio 3
         // Ejercicio 4 Christian Pisco
         CodeCrewSerie4 oCodeCrewSerie4 = new CodeCrewSerie4();
