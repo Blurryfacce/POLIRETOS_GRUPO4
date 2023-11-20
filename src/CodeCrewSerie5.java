@@ -1,12 +1,19 @@
-/**
- * @author Jhair Zambrano
- *
+/* Copyright (C) 2023, Jhair Zambrano
+ * (CodeCrew) jhairzp27@hotmail.com
+ * version 2.0
+ * Esta clase genera una secuencia de numeros primos utilizando bucles for, doWhile, While
  */
+
+/**
+  * Esta clase realiza una secuencia de números primos utilizando bucles.
+  * @author Jhair Zambrano
+  */
 public class CodeCrewSerie5 {
 	
 	/**
-	 * Numeros primos con ciclos FOR
+	 * Este metodo crea la serie utilizando un ciclo for
 	 * @param numVeces
+	 * @author Jhair Zambrano
 	 */
 	public void mostrarSerie5For(int numVeces) {
 		int[] numerosPrimos = new int[numVeces]; // Se crea el array del tamano numVeces
@@ -24,12 +31,15 @@ public class CodeCrewSerie5 {
 	}
 
 	/**
-	 * Numeros primos con Do While
+	 * Este metodo crea la serie utilizando un ciclo DoWhile
 	 * @param numVeces
+	 * @author Jhair Zambrano
 	 */
 	public void mostrarSerie5DoWhile(int numVeces) {
 		int [] numPrimos = new int [numVeces];
-		int numerosPrimosImpresos = 0, numPrimo = 2, i= 0;
+		int numerosPrimosImpresos = 0;
+		int numPrimo = 2;
+		int i= 0;
 		do {
 			if (esPrimo(numPrimo)) {
 				numPrimos[numerosPrimosImpresos] = numPrimo;
@@ -44,12 +54,14 @@ public class CodeCrewSerie5 {
 	}
 	
 	/**
-	 * Numeros primos con ciclo WWhile
-	 * @param numVece
+	 * Este metodo crea la serie utilizando un ciclo While 
+	 * @param numVeces
+	 * @author Jhair Zambrano
 	 */
 	public void mostrarSeries5While(int numeroVeces) {
 		int [] numPrimos = new int [numeroVeces];
-		int numerosPrimosImpresos = 0,  numPrimo = 2;
+		int numerosPrimosImpresos = 0;
+		int numPrimo = 2;
 		
 		while (numerosPrimosImpresos < numeroVeces) {
 			if(esPrimo(numPrimo)){
@@ -66,9 +78,9 @@ public class CodeCrewSerie5 {
 	}
 	
 	/**
-	 * Esta funcion servirÃ¡ para determinar si el numero es primo o no
+	 * Esta funcion servira para determinar si el numero es primo o no
 	 * @param num entero
-	 * @boolean
+	 * @return boolean
 	 */
 	public boolean esPrimo(int num) {
 		if (num <= 1) {

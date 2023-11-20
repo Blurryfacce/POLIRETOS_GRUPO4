@@ -45,21 +45,17 @@ public class App {
         limpiarConsola();
 
         // Ejercicio 6
-        CodeCrewSerie6 oCodeCrewSerie6 = new CodeCrewSerie6();
-        System.out.println("----Serie 6---For----");
-        oCodeCrewSerie6.mostrarSerie6For(numeroVeces);
-        
         esperarTecla();
         limpiarConsola();
 
         // Ejercicio 7 Isaac Proa�o
         CodeCrewSerie7 oCodeCrewSerie7 = new CodeCrewSerie7();
         System.out.println("----Serie 7---For----");
-        oCodeCrewSerie7.MostrarSerie7for(numeroVeces);
+        oCodeCrewSerie7.mostrarSerie7for(numeroVeces);
         System.out.println("----Serie 7---DoWhile----");
-        oCodeCrewSerie7.MostrarSerie7Dowhile(numeroVeces);
+        oCodeCrewSerie7.mostrarSerie7Dowhile(numeroVeces);
         System.out.println("----Serie 7---While----");
-        oCodeCrewSerie7.MostrarSerie7While(numeroVeces);
+        oCodeCrewSerie7.mostrarSerie7While(numeroVeces);
         esperarTecla();
         limpiarConsola();
 
