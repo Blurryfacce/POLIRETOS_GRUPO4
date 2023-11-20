@@ -23,7 +23,7 @@ public class App {
                 Scanner sc = new Scanner(System.in);
                 System.out.println("Ingresa el numero de elementos hasta el cual deseas hacer las secuencias ");
                 
-               numeroVeces  = Integer.parseInt(sc.nextLine());
+                numeroVeces  = Integer.parseInt(sc.nextLine());
                 bandera = false;
             } catch (NumberFormatException e) {
                 System.out.println("Por favor ingrese un numero entero");
@@ -31,31 +31,37 @@ public class App {
             }
         }
         
-         // Ejercicio 5 Jhair Zambrano
-         CodeCrewSerie5 oCodeCrewSerie5 = new CodeCrewSerie5();
-         System.out.println("-------Serie 5------For-----");
-         oCodeCrewSerie5.mostrarSerie5For(numeroVeces);
+        // Ejercicio 5 Jhair Zambrano
+        CodeCrewSerie5 oCodeCrewSerie5 = new CodeCrewSerie5();
+        System.out.println("-------Serie 5------For-----");
+        oCodeCrewSerie5.mostrarSerie5For(numeroVeces);
         // CICLO DO WHILE
-         System.out.println("-------Serie 5------Do While-----");
-         oCodeCrewSerie5.mostrarSerie5DoWhile(numeroVeces);
-         // while
-         System.out.println("-------Serie 5------While-----");
+        System.out.println("-------Serie 5------Do While-----");
+        oCodeCrewSerie5.mostrarSerie5DoWhile(numeroVeces);
+        // while
+        System.out.println("-------Serie 5------While-----");
         oCodeCrewSerie5.mostrarSeries5While(numeroVeces);
         esperarTecla();
         limpiarConsola();
 
         // Ejercicio 6
+        CodeCrewSerie6 oCodeCrewSerie6 = new CodeCrewSerie6();
+        System.out.println("----Serie 6---For----");
+        oCodeCrewSerie6.mostrarSerie6for(numeroVeces);
+
+        System.out.println("----Serie 6---While----");
+        oCodeCrewSerie6.mostrarSeries6While(numeroVeces);
         esperarTecla();
         limpiarConsola();
 
-        // Ejercicio 7 Isaac Proa�o 
+        // Ejercicio 7 Isaac Proano
         CodeCrewSerie7 oCodeCrewSerie7 = new CodeCrewSerie7();
         System.out.println("----Serie 7---For----");
-        oCodeCrewSerie7.MostrarSerie7for(numeroVeces);
+        oCodeCrewSerie7.mostrarSerie7for(numeroVeces);
         System.out.println("----Serie 7---DoWhile----");
-        oCodeCrewSerie7.MostrarSerie7Dowhile(numeroVeces);
+        oCodeCrewSerie7.mostrarSerie7Dowhile(numeroVeces);
         System.out.println("----Serie 7---While----");
-        oCodeCrewSerie7.MostrarSerie7While(numeroVeces);
+        oCodeCrewSerie7.mostrarSerie7While(numeroVeces);
         esperarTecla();
         limpiarConsola();
 

@@ -13,7 +13,7 @@ public class CodeCrewSerie7 {
  * @param numeroVeces: limita la serie a un número de elementos 
  * @author Isaac Proaño  
  */
-    public void MostrarSerie7for(int numeroVeces){
+    public void mostrarSerie7for(int numeroVeces){
         for (int numImprimir = 1; numImprimir < numeroVeces * 3; numImprimir += 3) {
                 System.out.print( numImprimir + " " );
                 
@@ -27,7 +27,7 @@ public class CodeCrewSerie7 {
  * @param numeroVeces: limita la serie a un número de elementos 
  * @author Isaac Proaño 
  */
-    public void MostrarSerie7Dowhile(int numeroVeces){
+    public void mostrarSerie7Dowhile(int numeroVeces){
         int numImprimir = 1;
         do {
             System.out.print(numImprimir + " ");
@@ -42,7 +42,7 @@ public class CodeCrewSerie7 {
  * @param numeroVeces: limita la serie a un número de elementos 
  * @author Isaac Proaño 
  */
-    public void MostrarSerie7While(int numeroVeces){
+    public void mostrarSerie7While(int numeroVeces){
         int numImprimir = 1;
         while (numImprimir <= numeroVeces * 3) {
             System.out.print(numImprimir + " ");
