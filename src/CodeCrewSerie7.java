@@ -1,13 +1,14 @@
-/* Copyright (C) 2023, Isaac_Proaño, Jhair Zambrano
+/* Copyright (C) 2023, Isaac_Proaño
  * (CodeCrew) blurryface0611@gmail.com 
- * version 1.0
+ * version 2.0
  */
 
  /**
-  * Este clase realiza una secuencia de numeros que empieza desde el 1 y va aumentando de 3 en 3.
+  * Este clase realiza una secuencia de numeros que empieza desde el 1 y va aumentando de 3 en 3, utilizando bucles.
   * @author Isaac Proaño
   */
 public class CodeCrewSerie7 {
+
 /**
  * Este método imprime la serie usando un ciclo For.
  * @param numeroVeces: limita la serie a un número de elementos 
@@ -23,7 +24,7 @@ public class CodeCrewSerie7 {
     }
 
 /**
- * Este método imprime la serie usando un ciclo For.
+ * Este método imprime la serie usando un ciclo DoWhile.
  * @param numeroVeces: limita la serie a un número de elementos 
  * @author Isaac Proaño 
  */

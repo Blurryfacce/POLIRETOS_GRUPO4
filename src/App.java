@@ -33,13 +33,13 @@ public class App {
         
         // Ejercicio 5 Jhair Zambrano
         CodeCrewSerie5 oCodeCrewSerie5 = new CodeCrewSerie5();
-        System.out.println("-------Serie 5------For-----");
+        System.out.println("-----Serie 5----For----");
         oCodeCrewSerie5.mostrarSerie5For(numeroVeces);
         // CICLO DO WHILE
-        System.out.println("-------Serie 5------DoWhile-----");
+        System.out.println("-----Serie 5----DoWhile----");
         oCodeCrewSerie5.mostrarSerie5DoWhile(numeroVeces);
         // while
-        System.out.println("-------Serie 5------While-----");
+        System.out.println("-----Serie 5----While----");
         oCodeCrewSerie5.mostrarSeries5While(numeroVeces);
         esperarTecla();
         limpiarConsola();
