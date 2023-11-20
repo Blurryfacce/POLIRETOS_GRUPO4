@@ -43,7 +43,7 @@ public class CodeCrewSerie7 {
  * @author Isaac Proaño 
  */
     public void MostrarSerie7While(int numeroVeces){
-        int numImprimir = 3;
+        int numImprimir = 1;
         while (numImprimir <= numeroVeces * 3) {
             System.out.print(numImprimir + " ");
             numImprimir += 3;

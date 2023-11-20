@@ -55,7 +55,7 @@ public class App {
         System.out.println("----Serie 7---DoWhile----");
         oCodeCrewSerie7.MostrarSerie7Dowhile(numeroVeces);
         System.out.println("----Serie 7---While----");
-        
+        oCodeCrewSerie7.MostrarSerie7While(numeroVeces);
         esperarTecla();
         limpiarConsola();
 
