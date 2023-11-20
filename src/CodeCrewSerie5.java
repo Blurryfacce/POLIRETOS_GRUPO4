@@ -4,11 +4,11 @@
  */
 public class CodeCrewSerie5 {
 	
-	public void mostrarSerie5For(int numVeces) {
-		for (int numPrimo = 1; numVeces > 0; numVeces--, numPrimo++){
+	public void mostrarSerie5For(int numeroVeces) {
+		for (int numPrimo = 1; numeroVeces > 0; numeroVeces--, numPrimo++){
 			int numRealPrimo = 0;
 			
-			while(numPrimo <= numVeces) {
+			while(numPrimo <= numeroVeces) {
 				if (esPrimo(numPrimo)) {
 					 numRealPrimo = numPrimo;
 					 System.out.print(numRealPrimo + "  ");
@@ -25,7 +25,7 @@ public class CodeCrewSerie5 {
 	 * @param numVeces
 	 */
 	
-	public void mostrarSerie5DoWhile(int numVeces) {
+	public void mostrarSerie5DoWhile(int numeroVeces) {
 		
 		int numPrimo = 1, numRealPrimo =0;
 		do {
@@ -35,8 +35,8 @@ public class CodeCrewSerie5 {
 				System.out.print(numRealPrimo + "  ");
 			}
 			
-			numVeces--; numPrimo++;
-		}while(numVeces >0);
+			numeroVeces--; numPrimo++;
+		}while(numeroVeces >0);
 		System.out.println();
 		
 	}
@@ -45,11 +45,11 @@ public class CodeCrewSerie5 {
 	 * Numeros primos con ciclo WWhile
 	 * @param numVece
 	 */
-	public void mostrarSeries5While(int numVece) {
+	public void mostrarSeries5While(int numeroVeces) {
 		int numPrimo = 1, numRealPrimo = 0;
 		
-		while(numVece >0) {
-			numVece --; numPrimo ++;
+		while(numeroVeces >0) {
+			numeroVeces --; numPrimo ++;
 			
 			if(esPrimo(numPrimo)) {
 				numRealPrimo = numPrimo;
@@ -65,12 +65,12 @@ public class CodeCrewSerie5 {
 	 * @param num
 	 * @return
 	 */
-	public boolean esPrimo(int num) {
-		if (num <= 1) {
+	public boolean esPrimo(int numeroVeces) {
+		if (numeroVeces <= 1) {
 			return false;
 		}
-		for(int i=2;i*i<=num; i++) {
-			if(num %i ==0){
+		for(int i=2;i*i<=numeroVeces; i++) {
+			if(numeroVeces %i ==0){
 			return false;
 			}
 		}
