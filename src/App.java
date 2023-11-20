@@ -13,7 +13,7 @@ public class App {
         String reset = "\u001B[0m";
         System.out.println(cyan + "Hello, Grupo 4: CodeCrew" + reset);
         System.out.println(red + "Integrantes: " + reset);
-        System.out.println(yellow + "Parra.Jhordy---Pastaz.Angel---Pisco.Christian---Proaño.Isaac");
+        System.out.println(yellow + "Parra.Jhordy---Pastaz.Angel---Pisco.Christian---ProaÃ±o.Isaac");
         System.out.println("Ramos.Sebastian---Rueda.Ruth---Sarasti.Sebastian---Zambrano.Jhair" + reset);
 
         esperarTecla();
@@ -57,7 +57,7 @@ public class App {
          esperarTecla();
          limpiarConsola();
  
-         // Ejercicio 6
+         // Ejercicio 6 Isaac proano y Jhair Zambrano
          CodeCrewSerie6 oCodeCrewSerie6 = new CodeCrewSerie6();
          System.out.println("----Serie 6---For----");
          oCodeCrewSerie6.mostrarSerie6for(numeroVeces);
@@ -68,7 +68,7 @@ public class App {
          esperarTecla();
          limpiarConsola();
  
-         // Ejercicio 7 Isaac Proa�o
+         // Ejercicio 7 Isaac Proao
          CodeCrewSerie7 oCodeCrewSerie7 = new CodeCrewSerie7();
          System.out.println("----Serie 7---For----");
          oCodeCrewSerie7.mostrarSerie7for(numeroVeces);
@@ -88,7 +88,7 @@ public class App {
         oCodeCrewSerie8.mostrarSerie8While(numeroVeces);
         esperarTecla();
         limpiarConsola();
-        // Ejercicio 9 Sebastián Ramos
+        // Ejercicio 9 SebastiÃ¡n Ramos
         CodeCrewSerie9 oCodeCrewSerie9 = new CodeCrewSerie9();
         System.out.println("----Serie 9---For----");
         oCodeCrewSerie9.SerieFor(numeroVeces);
@@ -98,7 +98,7 @@ public class App {
         oCodeCrewSerie9.SerieWhile(numeroVeces);
         esperarTecla();
         limpiarConsola();
-        // Ejercicio 10 Sebastián Sarasti y Sebastián Ramos
+        // Ejercicio 10 SebastiÃ¡n Sarasti y SebastiÃ¡n Ramos
         CodeCrewSerie10 oCodeCrewSerie10 = new CodeCrewSerie10();
         System.out.println("----Serie 10---For----");
         oCodeCrewSerie10.mostrarSerie10For(numeroVeces);
@@ -119,7 +119,7 @@ public class App {
     }
 
     /**
-    * Esta funcion sirve para limpiar la consola, a través de comandos de windows.
+    * Esta funcion sirve para limpiar la consola, a travÃ©s de comandos de windows.
     */
     public static void limpiarConsola() throws Exception {
         new ProcessBuilder("cmd", "/c", "cls").inheritIO().start().waitFor(); 
