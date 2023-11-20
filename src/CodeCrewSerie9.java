@@ -17,7 +17,7 @@ public class CodeCrewSerie9 {
     public void SerieFor(int numeroVeces) {
         int numeroSiguiente = this.numeroInicio;
         for (int i = 0; i < numeroVeces; i++) {
-            System.out.print(numeroSiguiente);
+            System.out.print(numeroSiguiente + " ");
             numeroSiguiente *= 2;
         }
         System.out.println();
@@ -31,7 +31,7 @@ public class CodeCrewSerie9 {
     public void SeriDoWhile(int numeroVeces) {
         int i = 1;
         do {
-            System.out.print(numeroSiguiente);
+            System.out.print(numeroSiguiente + " ");
             numeroSiguiente *= 2;
         } while (i++ < numeroVeces);
         System.out.println();
@@ -46,7 +46,7 @@ public class CodeCrewSerie9 {
         int i = 0;
         numeroSiguiente = this.numeroInicio;
         while (i++ < numeroVeces) {
-            System.out.print(numeroSiguiente);
+            System.out.print(numeroSiguiente + " ");
             numeroSiguiente *= 2;
         }
         System.out.println();
