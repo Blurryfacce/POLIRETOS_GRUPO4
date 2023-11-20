@@ -36,7 +36,7 @@ public class App {
         System.out.println("-------Serie 5------For-----");
         oCodeCrewSerie5.mostrarSerie5For(numeroVeces);
         // CICLO DO WHILE
-        System.out.println("-------Serie 5------Do While-----");
+        System.out.println("-------Serie 5------DoWhile-----");
         oCodeCrewSerie5.mostrarSerie5DoWhile(numeroVeces);
         // while
         System.out.println("-------Serie 5------While-----");
@@ -48,7 +48,8 @@ public class App {
         CodeCrewSerie6 oCodeCrewSerie6 = new CodeCrewSerie6();
         System.out.println("----Serie 6---For----");
         oCodeCrewSerie6.mostrarSerie6for(numeroVeces);
-
+        System.out.println("----Serie 6---Dowhile----");
+        oCodeCrewSerie6.mostrarSerie6DoWhile(numeroVeces);
         System.out.println("----Serie 6---While----");
         oCodeCrewSerie6.mostrarSeries6While(numeroVeces);
         esperarTecla();

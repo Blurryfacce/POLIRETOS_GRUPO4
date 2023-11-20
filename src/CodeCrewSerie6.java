@@ -17,10 +17,31 @@ public class CodeCrewSerie6 {
         System.out.println();
     }
 
+
+    /**
+     * Este método imprime la serie utilizado un ciclo doWhile
+     * @param numVeces: limita la serie un número de elementos
+     * @author Isaac Proaño, Jhair Zambrano
+     */
+    public void mostrarSerie6DoWhile(int numeroVeces){
+        int i = 0;
+        do {
+            i++;
+            int cuadrado = i * i;
+            System.out.print(cuadrado + " ");
+        } while (i < numeroVeces -1);
+        System.out.println();
+    }
+
+    /**
+     * Este método imprime la serie utilizado un ciclo While
+     * @param numVeces: limita la serie un número de elementos
+     * @author Isaac Proaño, Jhair Zambrano
+     */
     public void mostrarSeries6While(int numVeces){
         int i = 0;
         while (i < numVeces -1 ) {
-              i++;
+            i++;
             int cuadrado = i*i;
             System.out.print(cuadrado + " ");
         }
