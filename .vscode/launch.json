@@ -9,6 +9,13 @@
             "name": "App",
             "request": "launch",
             "mainClass": "App",
+            "projectName": "POLIRETOS_GRUPO4_e5001578"
+        },
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "App",
             "projectName": "POLIRETOS_GRUPO4_34a4c116"
         }
     ]
