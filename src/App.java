@@ -22,7 +22,8 @@ public class App {
             try {
                 Scanner sc = new Scanner(System.in);
                 System.out.println("Ingresa el numero de elementos hasta el cual deseas hacer las secuencias ");
-                numeroVeces = Integer.parseInt(sc.nextLine());
+                
+               numeroVeces  = Integer.parseInt(sc.nextLine());
                 bandera = false;
             } catch (NumberFormatException e) {
                 System.out.println("Por favor ingrese un numero entero");
@@ -47,9 +48,17 @@ public class App {
         esperarTecla();
         limpiarConsola();
 
-        // Ejercicio 7
+        // Ejercicio 7 Isaac Proa�o 
+        CodeCrewSerie7 oCodeCrewSerie7 = new CodeCrewSerie7();
+        System.out.println("----Serie 7---For----");
+        oCodeCrewSerie7.MostrarSerie7for(numeroVeces);
+        System.out.println("----Serie 7---DoWhile----");
+        oCodeCrewSerie7.MostrarSerie7Dowhile(numeroVeces);
+        System.out.println("----Serie 7---While----");
+        oCodeCrewSerie7.MostrarSerie7While(numeroVeces);
         esperarTecla();
         limpiarConsola();
+
 
         // Cierre del Scanner
     }

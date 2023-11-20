@@ -67,8 +67,8 @@ public class CodeCrewSerie5 {
 	
 	/**
 	 * Esta funcion servirá para determinar si el numero es primo o no
-	 * @param num
-	 * @return
+	 * @param num entero
+	 * @boolean
 	 */
 	public boolean esPrimo(int num) {
 		if (num <= 1) {
