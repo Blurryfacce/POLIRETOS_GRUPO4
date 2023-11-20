@@ -108,7 +108,16 @@ public class App {
         oCodeCrewSerie10.mostrarSerie10While(numeroVeces);
         esperarTecla();
         limpiarConsola();
-        // Ejercicio 12
+        // Ejercicio 12 Jhordy Parra
+        CodeCrewSerie12 oCodeCrewSerie12 = new CodeCrewSerie12();
+        System.out.println("----Serie 12---For----");
+        oCodeCrewSerie12.mostrarSerie12For(numeroVeces);
+        System.out.println("----Serie 12---Do While----");
+        oCodeCrewSerie12.mostrarSerie12DoWhile(numeroVeces);
+        System.out.println("----Serie 12---While----");
+        oCodeCrewSerie12.mostrarSerie12While(numeroVeces);
+        esperarTecla();
+        limpiarConsola();
 
         sc.close(); // Cierre del Scanner
     }
