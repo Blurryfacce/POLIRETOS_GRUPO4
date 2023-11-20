@@ -114,8 +114,6 @@ public class App {
         oCodeCrewSerie12.mostrarSerie12For(numeroVeces);
         System.out.println("----Serie 12---Do While----");
         oCodeCrewSerie12.mostrarSerie12DoWhile(numeroVeces);
-        System.out.println("----Serie 12---While----");
-        oCodeCrewSerie12.mostrarSerie12While(numeroVeces);
         esperarTecla();
         limpiarConsola();
 
