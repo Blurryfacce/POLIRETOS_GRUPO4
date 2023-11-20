@@ -32,6 +32,15 @@ public class App {
         }
 
         // Ejercicio 1
+        CodeCrewSerie1 oCodeCrewSerie1 = new CodeCrewSerie1();
+        System.out.println("----Serie 1---For----");
+        oCodeCrewSerie1.mostrarSerie1For(numeroVeces);
+        System.out.println("----Serie 1---Do While----");
+        oCodeCrewSerie1.mostrarSerie1DoWhile(numeroVeces);
+        System.out.println("----Serie 1---While----");
+        oCodeCrewSerie1.mostrarSerie1While(numeroVeces);
+        esperarTecla();
+        limpiarConsola();
         // Ejercicio 2
         // Ejercicio 3
         // Ejercicio 4 Christian Pisco
