@@ -27,7 +27,7 @@ public class CodeCrewSerie2 {
     public void showSerie2While(int numeroVeces) {
         int i = 1;
 
-        while (i < numeroVeces) {
+        while (i < numeroVeces+1) {
             System.out.print((i % 2 == 0) ? 0 + " " : i + " " );
             i++;
         }
@@ -47,7 +47,7 @@ public class CodeCrewSerie2 {
         do {
             System.out.print((i % 2 == 0) ? 0 + " " : i + " " );
             i++;
-        } while (i < numeroVeces);
+        } while (i < numeroVeces+1);
 
         System.out.println();
     }
