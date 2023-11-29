@@ -172,6 +172,14 @@ public class App {
         oCodeCrewFigura4.mostrarFigura4((byte) tamañoFigura);
         esperarTecla();
         limpiarConsola();
+
+        // Figuras: Ejercicio 7 Jhordy Parra
+        CodeCrewFigura7 oCodeCrewFigura7 = new CodeCrewFigura7();
+        oCodeCrewFigura7.mostrarFigura7((byte) tamañoFigura);
+        esperarTecla();
+        limpiarConsola();
+
+        
         // Figuras:Ejercicio 15 Sebastian Sarasti
         CodeCrewFigura15 oCodeCrewFigura15 = new CodeCrewFigura15();
         oCodeCrewFigura15.mostrarFigura15((byte) tamañoFigura);
