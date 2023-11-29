@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2k23, Sebastian Sarasti
+ * Copyright (C) 2k23, Sebastian Sarasti Larrea
  * (CodeCrew) sebastian.sarasti01@epn.edu.ec
  * Version 1.0
  */
