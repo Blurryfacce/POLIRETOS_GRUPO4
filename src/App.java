@@ -174,12 +174,14 @@ public class App {
         limpiarConsola();
 
         // Figuras: Ejercicio 7 Jhordy Parra
+        System.out.println("----- Figura 7 -----");
         CodeCrewFigura7 oCodeCrewFigura7 = new CodeCrewFigura7();
         oCodeCrewFigura7.mostrarFigura7((byte) tamañoFigura);
         esperarTecla();
         limpiarConsola();
 
         // Figuras: Ejercicio 8 Jhordy Parra
+        System.out.println("----- Figura 8 -----");
         CodeCrewFigura8 oCodeCrewFigura8 = new CodeCrewFigura8();
         oCodeCrewFigura8.mostrarFigura8((byte) tamañoFigura);
         esperarTecla();
@@ -190,6 +192,15 @@ public class App {
         // Figuras:Ejercicio 15 Sebastian Sarasti
         CodeCrewFigura15 oCodeCrewFigura15 = new CodeCrewFigura15();
         oCodeCrewFigura15.mostrarFigura15((byte) tamañoFigura);
+        esperarTecla();
+        limpiarConsola();
+        
+        // Figuras: Ejercicio 16 Jhordy Parra
+        System.out.println("----- Figura 16 -----");
+        CodeCrewFigura16 oCodeCrewFigura16 = new CodeCrewFigura16();
+        oCodeCrewFigura16.mostrarFigura16((byte) tamañoFigura);
+        esperarTecla();
+        limpiarConsola();
         sc.close();
     }
 

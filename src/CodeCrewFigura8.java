@@ -10,12 +10,13 @@
 */
 public class CodeCrewFigura8 {
 /**
-     * Este método imprime una figura Escalonada hacia la izquierda
+     * Este método imprime una figura Escalonada hacia la Izquierda
      * 
      * @param tamanoFigura este parámetro permite limitar la serie a un numero de
      *                    elementos
      */
     public void mostrarFigura8(int tamanoFigura) {
+        System.out.println();
         for (int i = 0; i < tamanoFigura; i++) {
             for (int j = i; j < tamanoFigura; j++) {
                 if(j==tamanoFigura-1)
