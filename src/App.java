@@ -148,6 +148,14 @@ public class App {
         esperarTecla();
         limpiarConsola();
 
+        // Caracteres: Ejercicio 2 Jhordy Parra
+        CodeCrewCaracter2 oCodeCrewCaracter2 = new CodeCrewCaracter2();
+        System.out.println("----Caracter 2----");
+        oCodeCrewCaracter2.mostrarSerieCaracteres2(numeroVeces);
+        esperarTecla();
+        limpiarConsola();
+
+
         // Figuras:Ejercicio 4 Sebastian Sarasti
         System.out.println("Ingrese el tamaño del que desea la figura");
         int tamañoFigura = Integer.parseInt(sc.nextLine());
