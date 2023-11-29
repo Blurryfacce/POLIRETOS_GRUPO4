@@ -26,7 +26,7 @@ public class CodeCrewSerie8 {
      *                    elementos
      */
     public void mostrarSerie8DoWhile(int numeroVeces) {
-        short numImprimir = 3;// Numero a imprimir se inicia en 3 por la naturaleza de la secuencia
+        short numImprimir = 3;
         do {
             System.out.print(numImprimir + " ");
             numImprimir += 5;
@@ -41,7 +41,7 @@ public class CodeCrewSerie8 {
      *                    elementos
      */
     public void mostrarSerie8While(int numeroVeces) {
-        short numImprimir = 3;// Numero a imprimir se inicia en 3 por la naturaleza de la secuencia
+        short numImprimir = 3;
         while (--numeroVeces >= 0) {
             System.out.print(numImprimir + " ");
             numImprimir += 5;
