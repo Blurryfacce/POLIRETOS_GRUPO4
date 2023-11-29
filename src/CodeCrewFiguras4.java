@@ -20,7 +20,7 @@ public class CodeCrewFiguras4 {
             for (byte contFila = 0; contFila < matrizFigura.length; contFila++) {
                 System.out.print(matrizFigura[contFila][contColumna]);
             }
-            System.out.println("");
+            System.out.println(" ");
         }
 
     }
