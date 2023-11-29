@@ -179,6 +179,13 @@ public class App {
         esperarTecla();
         limpiarConsola();
 
+        // Figuras: Ejercicio 8 Jhordy Parra
+        CodeCrewFigura8 oCodeCrewFigura8 = new CodeCrewFigura8();
+        oCodeCrewFigura8.mostrarFigura8((byte) tamañoFigura);
+        esperarTecla();
+        limpiarConsola();
+
+
         
         // Figuras:Ejercicio 15 Sebastian Sarasti
         CodeCrewFigura15 oCodeCrewFigura15 = new CodeCrewFigura15();
