@@ -17,18 +17,14 @@ public class CodeCrewFigura7 {
      */
     public void mostrarFigura7(int tamanoFigura) {
         System.out.println("__");
-        for (int i = 1; i <= tamanoFigura; i++) {
-            for (int j = 1; j <= i; j++) {
-                System.out.print(" ");
-                if (j == i) {
-                    System.out.print("|");
+        for (int i = 0; i < tamanoFigura; i++) {
+            for (int j = 0; j <= i; j++) {
+                System.out.print("  ");
+                if (i==j) {
+                    System.out.print("|__");
                 }
-                if (i == j) {
-                    System.out.print("__");
-                }
-                else {   
-                    System.out.print("  ");
-                }
+                else
+                    System.out.print(" ");
             }
             System.out.println();
         }
