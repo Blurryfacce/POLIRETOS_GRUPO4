@@ -155,7 +155,8 @@ public class App {
         oCodeCrewFiguras4.mostrarFigura4((byte) tamañoFigura);
         esperarTecla();
         limpiarConsola();
-        sc.close(); // Cierre del Scanner
+
+        sc.close();
     }
 
     public static void esperarTecla() {
