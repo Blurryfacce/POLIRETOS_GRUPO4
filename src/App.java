@@ -152,6 +152,15 @@ public class App {
         CodeCrewCaracter2 oCodeCrewCaracter2 = new CodeCrewCaracter2();
         System.out.println("----Caracter 2----");
         oCodeCrewCaracter2.mostrarSerieCaracteres2(numeroVeces);
+        System.out.println();
+        esperarTecla();
+        limpiarConsola();
+
+        // Caracteres: Ejercicio 3 Jhordy Parra
+        CodeCrewCaracter3 oCodeCrewCaracter3 = new CodeCrewCaracter3();
+        System.out.println("----Caracter 3----");
+        oCodeCrewCaracter3.mostrarSerieCaracteres3(numeroVeces);
+        System.out.println();
         esperarTecla();
         limpiarConsola();
 
