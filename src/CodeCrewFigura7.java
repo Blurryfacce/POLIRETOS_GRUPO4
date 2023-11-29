@@ -12,12 +12,12 @@ public class CodeCrewFigura7 {
     /**
      * Este método imprime una figura Escalonada hacia la derecha
      * 
-     * @param tamañoFigura este parámetro permite limitar la serie a un numero de
+     * @param tamanoFigura este parámetro permite limitar la serie a un numero de
      *                    elementos
      */
-    public void mostrarFigura7(int tamañoFigura) {
+    public void mostrarFigura7(int tamanoFigura) {
         System.out.println("__");
-        for (int i = 1; i <= tamañoFigura; i++) {
+        for (int i = 1; i <= tamanoFigura; i++) {
             for (int j = 1; j <= i; j++) {
                 System.out.print(" ");
                 if (j == i) {
