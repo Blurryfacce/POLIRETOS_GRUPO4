@@ -3,7 +3,7 @@
  * (CodeCrew) sebastian.sarasti01@epn.edu.ec
  * Version 1.0
  */
-public class CodeCrewFiguras4 {
+public class CodeCrewFigura4 {
     public void mostrarFigura4(byte tamanoFigura) {
         char[][] matrizFigura = new char[tamanoFigura][tamanoFigura];
         matrizFigura = llenarMatriz(matrizFigura);
