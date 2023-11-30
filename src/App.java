@@ -201,6 +201,13 @@ public class App {
         oCodeCrewFigura16.mostrarFigura16((byte) tamañoFigura);
         esperarTecla();
         limpiarConsola();
+        
+        // Figuras: Ejercicio 17 Jhordy Parra
+        System.out.println("----- Figura 17 -----");
+        CodeCrewFigura17 oCodeCrewFigura17 = new CodeCrewFigura17();
+        oCodeCrewFigura17.mostrarFigura17((byte) tamañoFigura);
+        esperarTecla();
+        limpiarConsola();
         sc.close();
     }
 
