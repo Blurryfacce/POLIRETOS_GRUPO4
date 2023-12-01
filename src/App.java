@@ -148,6 +148,15 @@ public class App {
         esperarTecla();
         limpiarConsola();
 
+
+        //Caracteres: Ejercicio 1 Sebastián Ramos
+        CodeCrewCaracter1 oCodeCaracter1= new CodeCrewCaracter1();
+        System.out.println("----Caracter 1----");
+        oCodeCaracter1.mostrarSerieCaracter1(numeroVeces);
+        System.out.println();
+        esperarTecla();
+        limpiarConsola();
+        
         // Caracteres: Ejercicio 2 Jhordy Parra
         CodeCrewCaracter2 oCodeCrewCaracter2 = new CodeCrewCaracter2();
         System.out.println("----Caracter 2----");
