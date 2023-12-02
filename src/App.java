@@ -198,6 +198,14 @@ public class App {
         esperarTecla();
         limpiarConsola();
 
+        //Figuras:Ejercicio 5 Sebastián Ramos
+        System.out.println("Ingrese el tamaño del que desea la figura");
+        altura= Integer.parseInt(sc.nextLine());
+        CodeCrewFigura5 oCodeCrewFigura5=new CodeCrewFigura5();
+        oCodeCrewFigura5.mostrarFigura5(altura);
+        esperarTecla();
+        limpiarConsola();
+
         // Figuras: Ejercicio 7 Jhordy Parra
         System.out.println("----- Figura 7 -----");
         CodeCrewFigura7 oCodeCrewFigura7 = new CodeCrewFigura7();
