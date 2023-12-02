@@ -181,6 +181,15 @@ public class App {
         esperarTecla();
         limpiarConsola();
 
+        //Figuras:Ejercicio 3 Sebastián Ramos
+        CodeCrewFigura3 oCodeCrewFigura3=new CodeCrewFigura3();
+        System.out.println("Ingrese el tamaño de la figura");
+        int altura= Integer.parseInt(sc.nextLine());
+        CodeCrewFigura3.mostrarFigura3(altura);
+        esperarTecla();
+        limpiarConsola();
+        
+        
         // Figuras:Ejercicio 4 Sebastian Sarasti
         System.out.println("Ingrese el tamaño del que desea la figura");
         int tamañoFigura = Integer.parseInt(sc.nextLine());
