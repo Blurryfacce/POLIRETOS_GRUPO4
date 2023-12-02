@@ -173,6 +173,13 @@ public class App {
         esperarTecla();
         limpiarConsola();
 
+        //Caracteres: Ejercicio 4 Sebastián Ramos.
+        CodeCrewCaracter4 oCodeCrewCaracter4= new CodeCrewCaracter4();
+        System.out.println("----Caracter 4----");
+        oCodeCrewCaracter4.mostrarSerieCaracter4(numeroVeces);
+        System.out.println();
+        esperarTecla();
+        limpiarConsola();
 
         // Figuras:Ejercicio 4 Sebastian Sarasti
         System.out.println("Ingrese el tamaño del que desea la figura");
