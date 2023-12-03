@@ -7,7 +7,7 @@
  */
 public class CodeCrewLoading5 {
 
-    public static void mostrarLoading5() {
+    public void mostrarLoading5() {
         String[] puntaBarra = {"-", ">"};
         String[] Barra = {"[", " ", "]"};
         int size = 20;            
@@ -33,11 +33,11 @@ public class CodeCrewLoading5 {
         }
     }
 
-    public static void delay(int milisegundos) throws InterruptedException {
+    public void delay(int milisegundos) throws InterruptedException {
         Thread.sleep(milisegundos);
         
     }
-    public static void barraCuerpo(int j){
+    public void barraCuerpo(int j){
         String cuerpoBarra = "=";
 
         for (int i=0; i < j; i++) {
@@ -46,7 +46,7 @@ public class CodeCrewLoading5 {
                 
             }
     }
-    public static void barraEspacio(int size){
+    public void barraEspacio(int size){
         for (int k=1; k <size; k++) {
                 System.out.print(" ");
             }
