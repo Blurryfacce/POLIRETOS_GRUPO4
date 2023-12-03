@@ -294,7 +294,22 @@ public class App {
         limpiarConsola();
         sc.close();
 
+        //Loading: Ejercicio 5 Angel Pastaz
+        System.out.println("----- Loading 5 -----");
+        CodeCrewLoading5 oCodeCrewLoading5 = new CodeCrewLoading5();
+        oCodeCrewLoading5.mostrarLoading5();
+        esperarTecla();
+        limpiarConsola();
+        
+        //Loading: Ejercicio 6 Angel Pastaz
+        System.out.println("----- Loading 6 -----");
+        CodeCrewLoading6 oCodeCrewLoading6 = new CodeCrewLoading6();
+        oCodeCrewLoading6.mostrarLoading6();
+        esperarTecla();
+        limpiarConsola();
+
     }
+    
 
     public static void esperarTecla() {
         System.out.println("Presiona Enter para continuar...");
