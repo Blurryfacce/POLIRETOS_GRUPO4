@@ -6,7 +6,7 @@
  * Esta clase genera la barra de loading 6
  */
 public class CodeCrewLoading6 {
-    public static void mostrarLoading6() {
+    public void mostrarLoading6() {
         String flecha = "<=>";
         int size= 19;
         final int  SLEEP = 500;
@@ -41,18 +41,18 @@ public class CodeCrewLoading6 {
         }
     }
 
-    public static void espacioCrece(int j){
+    public void espacioCrece(int j){
         for(int i=1; i<j;i++)
             System.out.print(" ");
     }
-    public static void espacioDecrece(int size){
+    public void espacioDecrece(int size){
         for(int i=1; i<size;i++){
             System.out.print(" ");
         }
 
     }
 
-    public static void delay(int milisegundos) throws InterruptedException {
+    public void delay(int milisegundos) throws InterruptedException {
         Thread.sleep(milisegundos);
         
     }
