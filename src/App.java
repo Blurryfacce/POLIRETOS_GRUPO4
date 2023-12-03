@@ -220,7 +220,7 @@ public class App {
         // Figuras:Ejercicio 3 Sebastián Ramos
         System.out.println("----- Figura 3 -----");
         CodeCrewFigura3 oCodeCrewFigura3 = new CodeCrewFigura3();
-        CodeCrewFigura3.mostrarFigura3(tamañoFigura);
+        oCodeCrewFigura3.mostrarFigura3(tamañoFigura);
         esperarTecla();
         limpiarConsola();
 

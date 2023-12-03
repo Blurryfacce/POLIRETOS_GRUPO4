@@ -12,7 +12,7 @@ public class CodeCrewFigura5 {
      * 
      * @param altura la altura de la figura
      */
-    public static void mostrarFigura5 (int altura) {
+    public void mostrarFigura5 (int altura) {
         for(int i=altura; i>=1;i--){
             for(byte j=1; j<=altura -i; j++ ){
                 System.out.print(" ");
