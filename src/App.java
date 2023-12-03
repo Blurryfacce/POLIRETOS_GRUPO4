@@ -7,10 +7,7 @@ public class App {
     public static void main(String[] args) throws Exception {
         boolean bandera = true;
         int numeroVeces = 0;
-        String red = "\033[31m";
-        String yellow = "\033[33m";
-        String cyan = "\033[36m";
-        String reset = "\u001B[0m";
+        String red = "\033[31m", yellow = "\033[33m", cyan = "\033[36m", reset = "\u001B[0m";
         System.out.println(cyan + "Hello, Grupo 4: CodeCrew" + reset);
         System.out.println(red + "Integrantes: " + reset);
         System.out.println(yellow + "Parra.Jhordy---Pastaz.Angel---Pisco.Christian---ProaÃ±o.Isaac");
@@ -189,6 +186,7 @@ public class App {
         limpiarConsola();
 
         // Figuras:Ejercicio 4 Sebastian Sarasti
+        System.out.println("----- Figura 4 -----");
         CodeCrewFigura4 oCodeCrewFigura4 = new CodeCrewFigura4();
         oCodeCrewFigura4.mostrarFigura4((byte) tamañoFigura);
         esperarTecla();
@@ -215,6 +213,7 @@ public class App {
         limpiarConsola();
 
         // Figuras:Ejercicio 15 Sebastian Sarasti
+        System.out.println("----- Figura 15 -----");
         CodeCrewFigura15 oCodeCrewFigura15 = new CodeCrewFigura15();
         oCodeCrewFigura15.mostrarFigura15((byte) tamañoFigura);
         esperarTecla();
@@ -233,7 +232,30 @@ public class App {
         oCodeCrewFigura17.mostrarFigura17((byte) tamañoFigura);
         esperarTecla();
         limpiarConsola();
+
+        System.out.println("Ingrese la frase que desea trabajar");
+        String frase = sc.nextLine();
+        // Cadena de caracteres 1: Sebastian Sarasti
+        System.out.println("----- Cadena 1 -----");
+        CodeCrewCadena1 oCodeCrewCadena1 = new CodeCrewCadena1();
+        oCodeCrewCadena1.mostrarCadena1(frase);
+        esperarTecla();
+        limpiarConsola();
+
+        // Cadena de caracteres 8: Sebastian Sarasti
+        System.out.println("----- Cadena 8 -----");
+        CodeCrewCadena8 oCodeCrewCadena8 = new CodeCrewCadena8();
+        oCodeCrewCadena8.mostrarPalabraAleatoria();
+        String anagrama;
+        int cont = 1;
+        do {
+            System.out.println("Ingrese el anagrama");
+            anagrama = sc.nextLine();
+        } while (oCodeCrewCadena8.mostrarCadena8(anagrama) == false && cont++ < 3);
+        esperarTecla();
+        limpiarConsola();
         sc.close();
+
     }
 
     public static void esperarTecla() {
