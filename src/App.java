@@ -177,6 +177,22 @@ public class App {
         esperarTecla();
         limpiarConsola();
 
+        //Caracteres: Ejercicio 5 Angel Pastaz
+        CodeCrewCaracter5 oCodeCrewCaracter05 = new CodeCrewCaracter5();
+        System.out.println("----Caracter 5----");
+        oCodeCrewCaracter05.mostrarSerieCaracter05(numeroVeces);
+        System.out.println();
+        esperarTecla();
+        limpiarConsola();
+        
+        //Caracteres: Ejercicio 6 Angel Pastaz
+        CodeCrewCaracter6 oCodeCrewCaracter06 = new CodeCrewCaracter6();
+        System.out.println("----Caracter 6----");
+        oCodeCrewCaracter06.mostrarSerieCaracter06(numeroVeces);
+        System.out.println();
+        esperarTecla();
+        limpiarConsola();
+
         // Figuras:Ejercicio 3 Sebastián Ramos
         CodeCrewFigura3 oCodeCrewFigura3 = new CodeCrewFigura3();
         System.out.println("Ingrese el tamaño de la figura");
