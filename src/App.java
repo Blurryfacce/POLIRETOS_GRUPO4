@@ -148,15 +148,14 @@ public class App {
         esperarTecla();
         limpiarConsola();
 
-
-        //Caracteres: Ejercicio 1 Sebastián Ramos
-        CodeCrewCaracter1 oCodeCaracter1= new CodeCrewCaracter1();
+        // Caracteres: Ejercicio 1 Sebastián Ramos
+        CodeCrewCaracter1 oCodeCaracter1 = new CodeCrewCaracter1();
         System.out.println("----Caracter 1----");
         oCodeCaracter1.mostrarSerieCaracter1(numeroVeces);
         System.out.println();
         esperarTecla();
         limpiarConsola();
-        
+
         // Caracteres: Ejercicio 2 Jhordy Parra
         CodeCrewCaracter2 oCodeCrewCaracter2 = new CodeCrewCaracter2();
         System.out.println("----Caracter 2----");
@@ -173,36 +172,31 @@ public class App {
         esperarTecla();
         limpiarConsola();
 
-        //Caracteres: Ejercicio 4 Sebastián Ramos.
-        CodeCrewCaracter4 oCodeCrewCaracter4= new CodeCrewCaracter4();
+        // Caracteres: Ejercicio 4 Sebastián Ramos.
+        CodeCrewCaracter4 oCodeCrewCaracter4 = new CodeCrewCaracter4();
         System.out.println("----Caracter 4----");
         oCodeCrewCaracter4.mostrarSerieCaracter4(numeroVeces);
         System.out.println();
         esperarTecla();
         limpiarConsola();
 
-        //Figuras:Ejercicio 3 Sebastián Ramos
-        CodeCrewFigura3 oCodeCrewFigura3=new CodeCrewFigura3();
+        // Figuras:Ejercicio 3 Sebastián Ramos
+        CodeCrewFigura3 oCodeCrewFigura3 = new CodeCrewFigura3();
         System.out.println("Ingrese el tamaño de la figura");
-        int altura= Integer.parseInt(sc.nextLine());
-        CodeCrewFigura3.mostrarFigura3(altura);
+        int tamañoFigura = Integer.parseInt(sc.nextLine());
+        CodeCrewFigura3.mostrarFigura3(tamañoFigura);
         esperarTecla();
         limpiarConsola();
-        
-        
+
         // Figuras:Ejercicio 4 Sebastian Sarasti
-        System.out.println("Ingrese el tamaño del que desea la figura");
-        int tamañoFigura = Integer.parseInt(sc.nextLine());
         CodeCrewFigura4 oCodeCrewFigura4 = new CodeCrewFigura4();
         oCodeCrewFigura4.mostrarFigura4((byte) tamañoFigura);
         esperarTecla();
         limpiarConsola();
 
-        //Figuras:Ejercicio 5 Sebastián Ramos
-        System.out.println("Ingrese el tamaño del que desea la figura");
-        altura= Integer.parseInt(sc.nextLine());
-        CodeCrewFigura5 oCodeCrewFigura5=new CodeCrewFigura5();
-        oCodeCrewFigura5.mostrarFigura5(altura);
+        // Figuras:Ejercicio 5 Sebastián Ramos
+        CodeCrewFigura5 oCodeCrewFigura5 = new CodeCrewFigura5();
+        oCodeCrewFigura5.mostrarFigura5(tamañoFigura);
         esperarTecla();
         limpiarConsola();
 
@@ -220,21 +214,19 @@ public class App {
         esperarTecla();
         limpiarConsola();
 
-
-        
         // Figuras:Ejercicio 15 Sebastian Sarasti
         CodeCrewFigura15 oCodeCrewFigura15 = new CodeCrewFigura15();
         oCodeCrewFigura15.mostrarFigura15((byte) tamañoFigura);
         esperarTecla();
         limpiarConsola();
-        
+
         // Figuras: Ejercicio 16 Jhordy Parra
         System.out.println("----- Figura 16 -----");
         CodeCrewFigura16 oCodeCrewFigura16 = new CodeCrewFigura16();
         oCodeCrewFigura16.mostrarFigura16((byte) tamañoFigura);
         esperarTecla();
         limpiarConsola();
-        
+
         // Figuras: Ejercicio 17 Jhordy Parra
         System.out.println("----- Figura 17 -----");
         CodeCrewFigura17 oCodeCrewFigura17 = new CodeCrewFigura17();
