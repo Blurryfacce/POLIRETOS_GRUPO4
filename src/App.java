@@ -254,6 +254,12 @@ public class App {
         } while (oCodeCrewCadena8.mostrarCadena8(anagrama) == false && cont++ < 3);
         esperarTecla();
         limpiarConsola();
+
+        // Arrays 3: Sebastian Sarasti
+        CodeCrewArrays3 oCodeCrewArrays3 = new CodeCrewArrays3();
+        oCodeCrewArrays3.mostrarArray3();
+        esperarTecla();
+        limpiarConsola();
         sc.close();
 
     }
