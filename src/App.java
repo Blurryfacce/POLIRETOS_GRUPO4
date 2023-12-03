@@ -192,6 +192,14 @@ public class App {
         System.out.println();
         esperarTecla();
         limpiarConsola();
+        
+        //Caracteres: Ejercicio 7 Christian Pisco
+        CodeCrewCaracter7 oCodeCrewCaracter7 = new CodeCrewCaracter7();
+        System.out.println("----Caracter 7----");
+        oCodeCrewCaracter7.mostrarSerieCaracter7(numeroVeces);
+        System.out.println();
+        esperarTecla();
+        limpiarConsola();
 
         //Figuras: Ejercicio 1 Angel Pastaz
         System.out.println("----- Figura 1 -----");
