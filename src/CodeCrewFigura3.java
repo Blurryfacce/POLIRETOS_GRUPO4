@@ -11,7 +11,7 @@ byte altura;
      * Este metodo genera la figura
      * @param altura es la altura que tendrá la figura
      */
-    public static void mostrarFigura3(int altura) {
+    public void mostrarFigura3(int altura) {
         for(byte i=1; i<=altura; i++){
             for(byte j=1; j<=i; j++){
                 System.out.print("* ");
