@@ -315,6 +315,13 @@ public class App {
         esperarTecla();
         limpiarConsola();
 
+        //Cadena de caracteres 4: Christian Pisco
+        System.out.println("----- Cadena 4 -----");
+        CodeCrewCadena4 oCodeCrewCadena4 = new CodeCrewCadena4();
+        oCodeCrewCadena4.mostrarCadena4(frase);
+        esperarTecla();
+        limpiarConsola();
+
         // Cadena de caracteres 8: Sebastian Sarasti
         System.out.println("----- Cadena 8 -----");
         CodeCrewCadena8 oCodeCrewCadena8 = new CodeCrewCadena8();
