@@ -264,6 +264,13 @@ public class App {
         esperarTecla();
         limpiarConsola();
 
+        // Figuras: Ejercicio 11 Christian Pisco
+        System.out.println("----- Figura 11 -----");
+        CodeCrewFigura11 oCodeCrewFigura11 = new CodeCrewFigura11();
+        oCodeCrewFigura11.mostrarFigura11((byte) tamañoFigura);
+        esperarTecla();
+        limpiarConsola();
+
         // Figuras:Ejercicio 15 Sebastian Sarasti
         System.out.println("----- Figura 15 -----");
         CodeCrewFigura15 oCodeCrewFigura15 = new CodeCrewFigura15();
