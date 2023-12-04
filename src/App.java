@@ -7,6 +7,7 @@ public class App {
     public static void main(String[] args) throws Exception {
         boolean bandera = true;
         int numeroVeces = 0;
+        int tamañoFigura = 0;
         String red = "\033[31m", yellow = "\033[33m", cyan = "\033[36m", reset = "\u001B[0m";
         System.out.println(cyan + "Hello, Grupo 4: CodeCrew" + reset);
         System.out.println(red + "Integrantes: " + reset);
@@ -201,11 +202,22 @@ public class App {
         esperarTecla();
         limpiarConsola();
 
+        // Control de posibles errores
+        bandera = true;
+        while (bandera == true) {
+            try {
+                System.out.println("Ingresa el tamaño de la figura");
+                tamañoFigura = Integer.parseInt(sc.nextLine());
+                bandera = false;
+            } catch (NumberFormatException e) {
+                System.out.println("Por favor ingrese un numero entero");
+                bandera = true;
+            }
+        }
+
         //Figuras: Ejercicio 1 Angel Pastaz
         System.out.println("----- Figura 1 -----");
         CodeCrewFigura1 oCodeCrewFigura01 = new CodeCrewFigura1();
-        System.out.println("Ingrese el tamaño de la figura");
-        int tamañoFigura = Integer.parseInt(sc.nextLine());
         oCodeCrewFigura01.mostrarFigura01(tamañoFigura);
         esperarTecla();
         limpiarConsola();
