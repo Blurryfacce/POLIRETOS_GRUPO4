@@ -347,8 +347,13 @@ public class App {
         oCodeCrewArrays3.mostrarArray3();
         esperarTecla();
         limpiarConsola();
-        sc.close();
-
+        
+        // Arrays 5: Christian Pisco
+        CodeCrewArrays5 oCodeCrewArrays5 = new CodeCrewArrays5();
+        oCodeCrewArrays5.mostrarArray5();
+        esperarTecla();
+        limpiarConsola();
+        
         //Loading: Ejercicio 5 Angel Pastaz
         System.out.println("----- Loading 5 -----");
         CodeCrewLoading5 oCodeCrewLoading5 = new CodeCrewLoading5();
@@ -364,7 +369,9 @@ public class App {
         System.out.println();
         esperarTecla();
         limpiarConsola();
-
+        
+        // Cierre del Scanner (Dejar siempre al final de main)
+        sc.close();
     }
     
 
