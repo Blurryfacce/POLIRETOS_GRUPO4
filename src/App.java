@@ -232,6 +232,7 @@ public class App {
         limpiarConsola();
 
         // Figuras:Ejercicio 5 Sebastián Ramos
+        System.out.println("----- Figura 5 -----");
         CodeCrewFigura5 oCodeCrewFigura5 = new CodeCrewFigura5();
         oCodeCrewFigura5.mostrarFigura5(tamañoFigura);
         esperarTecla();
