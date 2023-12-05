@@ -4,6 +4,23 @@ public class App {
 
     private static Scanner sc = new Scanner(System.in);
 
+    //Control de errores en Recursion
+    private static int pedirNumero(String mensaje){
+        int numero = 0;
+        boolean inputValido = false;
+
+        while (!inputValido) {
+            try {
+                System.out.println(mensaje);
+                numero = Integer.parseInt(sc.nextLine());
+                inputValido = true;
+            } catch (NumberFormatException e) {
+                System.out.println("Por favor ingrese un numero entero");
+            }
+        }
+        return numero;
+    }
+
     public static void main(String[] args) throws Exception {
         boolean bandera = true;
         int numeroVeces = 0;
@@ -383,7 +400,19 @@ public class App {
         System.out.println();
         esperarTecla();
         limpiarConsola();
-        
+
+        //Recursion: Ejercicio 2 Jhordy Parra
+        System.out.println("----- Recursion 2 -----");
+        CodeCrewRecursion2 oCodeCrewRecursion2 = new CodeCrewRecursion2();
+        int numero1 = pedirNumero("Ingresa el primer numero a sumar ");
+        limpiarConsola();
+        int numero2 = pedirNumero("Ingresa el segundo numero a sumar ");
+        limpiarConsola();
+        System.out.println("----- Recursion 2 -----");
+        oCodeCrewRecursion2.sumaRecursion(numero1,numero2);
+        esperarTecla();
+        limpiarConsola();
+
         // Cierre del Scanner (Dejar siempre al final de main)
         sc.close();
     }
