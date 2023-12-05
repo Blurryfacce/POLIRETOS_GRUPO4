@@ -425,8 +425,7 @@ public class App {
         oCodeCrewArrays3.mostrarArray3();
         esperarTecla();
         limpiarConsola();
-        sc.close();
-
+        
         // Arrays 5: Christian Pisco
         CodeCrewArrays5 oCodeCrewArrays5 = new CodeCrewArrays5();
         oCodeCrewArrays5.mostrarArray5();
