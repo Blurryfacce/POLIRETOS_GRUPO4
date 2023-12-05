@@ -511,7 +511,8 @@ public class App {
         CodeCrewRecursion4 oCodeCrewRecursion4 = new CodeCrewRecursion4();
         System.out.println(
                 base + " elevado a la " + exponente + " es: " + oCodeCrewRecursion4.calcularPotencia(base, exponente));
-
+        esperarTecla();
+        limpiarConsola();
         // Recursion: Ejercicio 6 Jhordy Parra
         System.out.println("----- Recursion 6 -----");
         CodeCrewRecursion6 oCodeCrewRecursion6 = new CodeCrewRecursion6();
