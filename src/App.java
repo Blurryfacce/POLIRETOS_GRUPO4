@@ -281,10 +281,31 @@ public class App {
         esperarTecla();
         limpiarConsola();
 
+        // Figuras: Ejercicio 9 Isaac Proaño
+        System.out.println("----- Figura 9 -----");
+        CodeCrewFigura9 oCodeCrewFigura9 = new CodeCrewFigura9();
+        oCodeCrewFigura9.mostrarFigura9((int) tamañoFigura);
+        esperarTecla();
+        limpiarConsola();
+        
+        // Figuras: Ejercicio 10 Isaac Proaño
+        System.out.println("----- Figura 10 -----");
+        CodeCrewFigura10 oCodeCrewFigura10 = new CodeCrewFigura10();
+        oCodeCrewFigura10.mostrarFigura10((int) tamañoFigura);
+        esperarTecla();
+        limpiarConsola();
+
         // Figuras: Ejercicio 11 Christian Pisco
         System.out.println("----- Figura 11 -----");
         CodeCrewFigura11 oCodeCrewFigura11 = new CodeCrewFigura11();
         oCodeCrewFigura11.mostrarFigura11((byte) tamañoFigura);
+        esperarTecla();
+        limpiarConsola();
+
+        // Figuras: Ejercicio 14 Isaac Proaño
+        System.out.println("----- Figura 14 -----");
+        CodeCrewFigura14 oCodeCrewFigura14 = new CodeCrewFigura14();
+        oCodeCrewFigura14.mostrarFigura14((int) tamañoFigura);
         esperarTecla();
         limpiarConsola();
 
@@ -308,6 +329,14 @@ public class App {
         oCodeCrewFigura17.mostrarFigura17((byte) tamañoFigura);
         esperarTecla();
         limpiarConsola();
+
+        // Figuras: Ejercicio 18 Isaac Proaño
+        System.out.println("----- Figura 18 -----");
+        CodeCrewFigura18 oCodeCrewFigura18 = new CodeCrewFigura18();
+        oCodeCrewFigura18.mostrarFigura18((int) tamañoFigura);
+        esperarTecla();
+        limpiarConsola();
+       
 
         System.out.println("Ingrese la frase que desea trabajar");
         String frase = sc.nextLine();
