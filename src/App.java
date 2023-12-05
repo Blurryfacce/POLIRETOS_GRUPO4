@@ -25,15 +25,25 @@ public class App {
         boolean bandera = true;
         int numeroVeces = 0;
         int tamañoFigura = 0;
+        int tamañoMatriz = 0;
+        char caracter = ' ';
+
         String red = "\033[31m", yellow = "\033[33m", cyan = "\033[36m", reset = "\u001B[0m";
         System.out.println(cyan + "Hello, Grupo 4: CodeCrew" + reset);
         System.out.println(red + "Integrantes: " + reset);
         System.out.println(yellow + "Parra.Jhordy---Pastaz.Angel---Pisco.Christian---ProaÃ±o.Isaac");
         System.out.println("Ramos.Sebastian---Rueda.Ruth---Sarasti.Sebastian---Zambrano.Jhair" + reset);
 
+<<<<<<< HEAD
         esperarTecla();
         limpiarConsola();
-
+        // Arrays 3: Sebastian Sarasti
+        CodeCrewArrays3 oCodeCrewArrays3 = new CodeCrewArrays3();
+        oCodeCrewArrays3.mostrarArray3();
+        esperarTecla();
+        limpiarConsola();
+=======
+>>>>>>> ed0dfe26e2bbaea053b326927f9309c74c5b33ff
         // Control de posibles errores
         while (bandera == true) {
             try {
@@ -195,23 +205,23 @@ public class App {
         esperarTecla();
         limpiarConsola();
 
-        //Caracteres: Ejercicio 5 Angel Pastaz
+        // Caracteres: Ejercicio 5 Angel Pastaz
         CodeCrewCaracter5 oCodeCrewCaracter05 = new CodeCrewCaracter5();
         System.out.println("----Caracter 5----");
         oCodeCrewCaracter05.mostrarSerieCaracter05(numeroVeces);
         System.out.println();
         esperarTecla();
         limpiarConsola();
-        
-        //Caracteres: Ejercicio 6 Angel Pastaz
+
+        // Caracteres: Ejercicio 6 Angel Pastaz
         CodeCrewCaracter6 oCodeCrewCaracter06 = new CodeCrewCaracter6();
         System.out.println("----Caracter 6----");
         oCodeCrewCaracter06.mostrarSerieCaracter06(numeroVeces);
         System.out.println();
         esperarTecla();
         limpiarConsola();
-        
-        //Caracteres: Ejercicio 7 Christian Pisco
+
+        // Caracteres: Ejercicio 7 Christian Pisco
         CodeCrewCaracter7 oCodeCrewCaracter7 = new CodeCrewCaracter7();
         System.out.println("----Caracter 7----");
         oCodeCrewCaracter7.mostrarSerieCaracter7(numeroVeces);
@@ -232,20 +242,20 @@ public class App {
             }
         }
 
-        //Figuras: Ejercicio 1 Angel Pastaz
+        // Figuras: Ejercicio 1 Angel Pastaz
         System.out.println("----- Figura 1 -----");
         CodeCrewFigura1 oCodeCrewFigura01 = new CodeCrewFigura1();
         oCodeCrewFigura01.mostrarFigura01(tamañoFigura);
         esperarTecla();
         limpiarConsola();
-        
-        //Figuras: Ejercicio 2 Angel Pastaz
+
+        // Figuras: Ejercicio 2 Angel Pastaz
         System.out.println("----- Figura 2 -----");
         CodeCrewFigura2 oCodeCrewFigura2 = new CodeCrewFigura2();
         oCodeCrewFigura2.mostrarFigura02(tamañoFigura);
         esperarTecla();
         limpiarConsola();
-        
+
         // Figuras:Ejercicio 3 Sebastián Ramos
         System.out.println("----- Figura 3 -----");
         CodeCrewFigura3 oCodeCrewFigura3 = new CodeCrewFigura3();
@@ -318,28 +328,28 @@ public class App {
         esperarTecla();
         limpiarConsola();
 
-        //Cadena de caracteres 2: Sebastián Ramos
+        // Cadena de caracteres 2: Sebastián Ramos
         System.err.println("---- Cadena 2 ----");
-        CodeCrewCadena2 oCodeCrewCadena2=new CodeCrewCadena2();
+        CodeCrewCadena2 oCodeCrewCadena2 = new CodeCrewCadena2();
         oCodeCrewCadena2.mostrarCadena2(frase);
         esperarTecla();
         limpiarConsola();
 
-        //Cadena de caracteres 3: Angel Pastaz
+        // Cadena de caracteres 3: Angel Pastaz
         System.out.println("----- Cadena 3 -----");
         CodeCrewCadena3 oCodeCrewCadena3 = new CodeCrewCadena3();
         oCodeCrewCadena3.ingresarDatos();
         esperarTecla();
         limpiarConsola();
 
-        //Cadena de caracteres 4: Christian Pisco
+        // Cadena de caracteres 4: Christian Pisco
         System.out.println("----- Cadena 4 -----");
         CodeCrewCadena4 oCodeCrewCadena4 = new CodeCrewCadena4();
         oCodeCrewCadena4.mostrarCadena4(frase);
         esperarTecla();
         limpiarConsola();
 
-        //Cadena de caracteres 7: Christian Pisco
+        // Cadena de caracteres 7: Christian Pisco
         System.out.println("----- Cadena 7 -----");
         CodeCrewCadena7 oCodeCrewCadena7 = new CodeCrewCadena7();
         oCodeCrewCadena7.mostrarCadena7(frase);
@@ -359,41 +369,64 @@ public class App {
         esperarTecla();
         limpiarConsola();
 
+        // Arrays 2: Sebastián Ramos Carrillo
+        System.out.println("Mi nombre es: Sebastián Carrillo.Mis iniciales son: S C");
+        System.out.println("Ingrese el tamaño");
+        tamañoMatriz = Integer.parseInt(sc.nextLine());
+        System.out.println("Ingrese el caracter");
+        caracter = sc.next().charAt(0);
+        CodeCrewArrays2 oCodeCrewArrays2 = new CodeCrewArrays2();
+        oCodeCrewArrays2.crearMatriz(tamañoMatriz, caracter);
+        oCodeCrewArrays2.mostrarMatriz();
+<<<<<<< HEAD
+        esperarTecla();
+=======
+        esperarTecla();
+
         // Arrays 3: Sebastian Sarasti
         CodeCrewArrays3 oCodeCrewArrays3 = new CodeCrewArrays3();
         oCodeCrewArrays3.mostrarArray3();
         esperarTecla();
         limpiarConsola();
-        
+        sc.close();
+>>>>>>> ed0dfe26e2bbaea053b326927f9309c74c5b33ff
+
         // Arrays 5: Christian Pisco
         CodeCrewArrays5 oCodeCrewArrays5 = new CodeCrewArrays5();
         oCodeCrewArrays5.mostrarArray5();
         esperarTecla();
         limpiarConsola();
-        
-        //Loading: Ejercicio 2 Christian Pisco
+
+        // Loading: Ejercicio 2 Christian Pisco
         System.out.println("----- Loading 2 -----");
         CodeCrewLoading2 oCodeCrewLoading2 = new CodeCrewLoading2();
         oCodeCrewLoading2.mostrarLoading2();
         esperarTecla();
         limpiarConsola();
-        
-        //Loading: Ejercicio 3 Christian Pisco
+
+        // Loading: Ejercicio 3 Christian Pisco
         System.out.println("----- Loading 3 -----");
         CodeCrewLoading3 oCodeCrewLoading3 = new CodeCrewLoading3();
         oCodeCrewLoading3.mostrarLoading3();
         esperarTecla();
         limpiarConsola();
-        
-        //Loading: Ejercicio 5 Angel Pastaz
+      
+        //Loading: Ejercicio 4 Sebastián Ramos
+        System.out.println("----- Loading 4 -----");
+        CodeCrewLoading4 oCodeCrewLoading4= new CodeCrewLoading4();
+        oCodeCrewLoading4.mostrarLoading4();
+        esperarTecla();
+        limpiarConsola();
+
+        // Loading: Ejercicio 5 Angel Pastaz
         System.out.println("----- Loading 5 -----");
         CodeCrewLoading5 oCodeCrewLoading5 = new CodeCrewLoading5();
         oCodeCrewLoading5.mostrarLoading5();
         System.out.println();
         esperarTecla();
         limpiarConsola();
-        
-        //Loading: Ejercicio 6 Angel Pastaz
+
+        // Loading: Ejercicio 6 Angel Pastaz
         System.out.println("----- Loading 6 -----");
         CodeCrewLoading6 oCodeCrewLoading6 = new CodeCrewLoading6();
         oCodeCrewLoading6.mostrarLoading6();
@@ -414,6 +447,13 @@ public class App {
         esperarTecla();
         limpiarConsola();
 
+        // Recursión: Ejercicio 3 Christian Pisco
+        System.out.println("----- Recursion 3 -----");
+        CodeCrewRecursion3 oCodeCrewRecursion3 = new CodeCrewRecursion3();
+        oCodeCrewRecursion3.mostrarRecursion3();
+        esperarTecla();
+        limpiarConsola();
+        
         //Recursion: Ejercicio 6 Jhordy Parra
         System.out.println("----- Recursion 6 -----");
         CodeCrewRecursion6 oCodeCrewRecursion6 = new CodeCrewRecursion6();
@@ -427,7 +467,6 @@ public class App {
         // Cierre del Scanner (Dejar siempre al final de main)
         sc.close();
     }
-    
 
     public static void esperarTecla() {
         System.out.println("Presiona Enter para continuar...");
