@@ -17,13 +17,6 @@ public class App {
         System.out.println(yellow + "Parra.Jhordy---Pastaz.Angel---Pisco.Christian---ProaÃ±o.Isaac");
         System.out.println("Ramos.Sebastian---Rueda.Ruth---Sarasti.Sebastian---Zambrano.Jhair" + reset);
 
-        esperarTecla();
-        limpiarConsola();
-        // Arrays 3: Sebastian Sarasti
-        CodeCrewArrays3 oCodeCrewArrays3 = new CodeCrewArrays3();
-        oCodeCrewArrays3.mostrarArray3();
-        esperarTecla();
-        limpiarConsola();
         // Control de posibles errores
         while (bandera == true) {
             try {
@@ -359,6 +352,13 @@ public class App {
         oCodeCrewArrays2.crearMatriz(tamañoMatriz, caracter);
         oCodeCrewArrays2.mostrarMatriz();
         esperarTecla();
+
+        // Arrays 3: Sebastian Sarasti
+        CodeCrewArrays3 oCodeCrewArrays3 = new CodeCrewArrays3();
+        oCodeCrewArrays3.mostrarArray3();
+        esperarTecla();
+        limpiarConsola();
+        sc.close();
 
         // Arrays 5: Christian Pisco
         CodeCrewArrays5 oCodeCrewArrays5 = new CodeCrewArrays5();
