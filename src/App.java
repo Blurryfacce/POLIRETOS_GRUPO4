@@ -383,6 +383,13 @@ public class App {
         esperarTecla();
         limpiarConsola();
         
+        //Loading: Ejercicio 4 Sebastián Ramos
+        System.out.println("----- Loading 4 -----");
+        CodeCrewLoading4 oCodeCrewLoading4= new CodeCrewLoading4();
+        oCodeCrewLoading4.mostrarLoading4();
+        esperarTecla();
+        limpiarConsola();
+
         //Loading: Ejercicio 5 Angel Pastaz
         System.out.println("----- Loading 5 -----");
         CodeCrewLoading5 oCodeCrewLoading5 = new CodeCrewLoading5();
