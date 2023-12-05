@@ -383,6 +383,13 @@ public class App {
         System.out.println();
         esperarTecla();
         limpiarConsola();
+
+        //Recursión: Ejercicio 3 Christian Pisco
+        System.out.println("----- Recursion 3 -----");
+        CodeCrewRecursion3 oCodeCrewRecursion3 = new CodeCrewRecursion3();
+        oCodeCrewRecursion3.mostrarRecursion3();
+        esperarTecla();
+        limpiarConsola();
         
         // Cierre del Scanner (Dejar siempre al final de main)
         sc.close();
