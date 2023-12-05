@@ -10,7 +10,12 @@ public class App {
         int tamañoFigura = 0;
         int tamañoMatriz = 0;
         char caracter = ' ';
-
+        // Loading: Ejercicio 1 Sebastian Sarasti
+        System.out.println("----- Loading 1 -----");
+        CodeCrewLoading1 oCodeCrewLoading1 = new CodeCrewLoading1();
+        oCodeCrewLoading1.mostrarLoading1();
+        esperarTecla();
+        limpiarConsola();
         String red = "\033[31m", yellow = "\033[33m", cyan = "\033[36m", reset = "\u001B[0m";
         System.out.println(cyan + "Hello, Grupo 4: CodeCrew" + reset);
         System.out.println(red + "Integrantes: " + reset);
@@ -19,11 +24,7 @@ public class App {
 
         esperarTecla();
         limpiarConsola();
-        // Arrays 3: Sebastian Sarasti
-        CodeCrewArrays3 oCodeCrewArrays3 = new CodeCrewArrays3();
-        oCodeCrewArrays3.mostrarArray3();
-        esperarTecla();
-        limpiarConsola();
+
         // Control de posibles errores
         while (bandera == true) {
             try {
@@ -359,6 +360,12 @@ public class App {
         oCodeCrewArrays2.crearMatriz(tamañoMatriz, caracter);
         oCodeCrewArrays2.mostrarMatriz();
         esperarTecla();
+
+        // Arrays 3: Sebastian Sarasti
+        CodeCrewArrays3 oCodeCrewArrays3 = new CodeCrewArrays3();
+        oCodeCrewArrays3.mostrarArray3();
+        esperarTecla();
+        limpiarConsola();
 
         // Arrays 5: Christian Pisco
         CodeCrewArrays5 oCodeCrewArrays5 = new CodeCrewArrays5();

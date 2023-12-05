@@ -1,4 +1,12 @@
+/*
+ * Copyright (C) 2k23, Sebastian Sarasti Larrea
+ * (CodeCrew) sebastian.sarasti01@epn.edu.ec
+ * Version 1.0
+ */
 public class CodeCrewArrays3 {
+    /**
+     * Este método permite mostrar un nombre, en función f(x)=2x
+     */
     public void mostrarArray3() {
         String nombre = "sebas";
         String[][] matrizPlanoStrings = new String[(nombre.length() * 2 + 1)][(nombre.length() * 2)];
