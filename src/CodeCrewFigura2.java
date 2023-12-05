@@ -7,15 +7,22 @@
  */
 public class CodeCrewFigura2 {
     public void mostrarFigura02(int altura){
-        for(int i=1; i<= altura;i++){
-            for(int j=1;j<=altura;j++)
-                if (i==1||j==1||i==altura||j==altura) {
-                    System.out.print((i%2==0||j%2==0) ? "+ ":"* " );
-                }
-                else{
+        for (int i = 1; i <= altura; i++){
+            for(int w = 1; w <= altura; w++)
+            {
+                if(w==1 || w==altura || i==1 ||i==altura){
+                    if((i+w)%2==0 ){
+                        System.out.print("- ");
+                    }
+                    else{
+                        System.out.print("+ ");
+                    }
+                } 
+                else {  
                     System.out.print("  ");
                 }
-            System.out.println();
-        }
+            }
+        System.out.println();
+        }       
     }
 }
