@@ -267,6 +267,13 @@ public class App {
         esperarTecla();
         limpiarConsola();
 
+        // Figuras:Ejercicio 6 Jhair Zambrano
+        System.out.println("----- Figura 6 -----");
+        CodeCrewFigura6 oCodeCrewFigura6 = new CodeCrewFigura6();
+        oCodeCrewFigura6.mostrarFigura6(tamañoFigura);
+        esperarTecla();
+        limpiarConsola();
+
         // Figuras: Ejercicio 7 Jhordy Parra
         System.out.println("----- Figura 7 -----");
         CodeCrewFigura7 oCodeCrewFigura7 = new CodeCrewFigura7();
@@ -368,6 +375,20 @@ public class App {
         esperarTecla();
         limpiarConsola();
 
+        //Cadena de caracteres 5: Jhair Zambrano
+        System.out.println("----- Cadena 5 -----");
+        CodeCrewCadena5 oCodeCrewCadena5 = new CodeCrewCadena5();
+        oCodeCrewCadena5.mostrarCadena5(frase);
+        esperarTecla();
+        limpiarConsola();
+        
+        //Cadena de caracteres 6: Jhair Zambrano
+        System.out.println("----- Cadena 6 -----");
+        CodeCrewCadena6 oCodeCrewCadena6 = new CodeCrewCadena6();
+        oCodeCrewCadena6.mostrarCadena6(frase);
+        esperarTecla();
+        limpiarConsola();
+
         // Cadena de caracteres 7: Christian Pisco
         System.out.println("----- Cadena 7 -----");
         CodeCrewCadena7 oCodeCrewCadena7 = new CodeCrewCadena7();
@@ -446,6 +467,29 @@ public class App {
         CodeCrewLoading6 oCodeCrewLoading6 = new CodeCrewLoading6();
         oCodeCrewLoading6.mostrarLoading6();
         System.out.println();
+        esperarTecla();
+        limpiarConsola();
+
+        //Loading: Ejercicio 7 Jhair Zambrano
+        System.out.println("----- Loading 7 -----");
+        CodeCrewLoading7 oCodeCrewLoading7 = new CodeCrewLoading7();
+        oCodeCrewLoading7.mostrarLoading7();
+        System.out.println();
+        esperarTecla();
+        limpiarConsola();
+        
+        //Loading: Ejercicio 8 Jhair Zambrano
+        System.out.println("----- Loading 8 -----");
+        CodeCrewLoading8 oCodeCrewLoading8 = new CodeCrewLoading8();
+        oCodeCrewLoading8.mostrarLoading8();
+        System.out.println();
+        esperarTecla();
+        limpiarConsola();
+
+        //Recursión: Ejercicio 1 Jhair Zambrano
+        System.out.println("----- Recursion 1 -----");
+        CodeCrewRecursion1 oCodeCrewRecursion1 = new CodeCrewRecursion1();
+        oCodeCrewRecursion1.mostrarRecursion1();
         esperarTecla();
         limpiarConsola();
 
