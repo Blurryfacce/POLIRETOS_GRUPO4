@@ -1,15 +1,15 @@
 public class CodeCrewArrays3 {
     public void mostrarArray3() {
         String nombre = "sebas";
-        String[][] matrizPlanoStrings = new String[(nombre.length() * 2) - 2][(nombre.length() * 2) - 2];
-        int cont = 0, cont2 = 0, contFilas2 = matrizPlanoStrings[0].length - 3, contColumnas2 = 1;
+        String[][] matrizPlanoStrings = new String[(nombre.length() * 2 + 1)][(nombre.length() * 2)];
+        int cont = 0, contFilas2 = matrizPlanoStrings.length - 3, contColumnas2 = 1;
         for (int contColumnas = matrizPlanoStrings[0].length - 1; contColumnas >= 0; contColumnas--) {
             for (int contFilas = matrizPlanoStrings.length - 1; contFilas >= 0; contFilas--) {
                 if (contColumnas == 0) {
                     matrizPlanoStrings[contFilas][contColumnas] = cont + "" + "|";
                     cont++;
                 } else if (contFilas == matrizPlanoStrings.length - 1) {
-                    matrizPlanoStrings[contFilas][contColumnas] = "__";
+                    matrizPlanoStrings[contFilas][contColumnas] = "_";
                 } else {
                     matrizPlanoStrings[contFilas][contColumnas] = " ";
                 }
@@ -18,11 +18,11 @@ public class CodeCrewArrays3 {
 
         }
         for (int i = 0; i < nombre.length(); i++) {
-            matrizPlanoStrings[contFilas2][contColumnas2] = " " + nombre.charAt(cont2);
-            cont2++;
-            contFilas2--;
+            matrizPlanoStrings[contFilas2][contColumnas2] = " " + nombre.charAt(i);
             contColumnas2++;
+            contFilas2 -= 2;
         }
+
         for (int i = 0; i < matrizPlanoStrings.length; i++) {
             for (String fila : matrizPlanoStrings[i])
                 System.out.print(fila);
