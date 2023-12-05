@@ -11,7 +11,7 @@ public class CodeCrewLoading1 {
             System.out.print(
                     "\rLoading " + caracteresLoading[i % 4] + " " + i + "%" + caracteresSimbolosLoading[i % 4]);
             try {
-                delay(310);
+                delay(80);
             } catch (InterruptedException e) {
                 Thread.currentThread().interrupt();
             }
