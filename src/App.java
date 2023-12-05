@@ -221,6 +221,22 @@ public class App {
         esperarTecla();
         limpiarConsola();
 
+        // Caracteres: Ejercicio 8 Ruth Rueda
+        CodeCrewCaracter8 oCodeCrewCaracter8 = new CodeCrewCaracter8();
+        System.out.println("----Caracter 8----");
+        oCodeCrewCaracter8.showSerieCaracter8(numeroVeces);
+        System.out.println();
+        esperarTecla();
+        limpiarConsola();
+
+        // Caracteres: Ejercicio 9 Ruth Rueda
+        CodeCrewCaracter9 oCodeCrewCaracter9 = new CodeCrewCaracter9();
+        System.out.println("----Caracter 9----");
+        oCodeCrewCaracter9.showSerieCaracter9(numeroVeces);
+        System.out.println();
+        esperarTecla();
+        limpiarConsola();
+
         // Control de posibles errores
         bandera = true;
         while (bandera == true) {
@@ -301,6 +317,20 @@ public class App {
         System.out.println("----- Figura 11 -----");
         CodeCrewFigura11 oCodeCrewFigura11 = new CodeCrewFigura11();
         oCodeCrewFigura11.mostrarFigura11((byte) tamañoFigura);
+        esperarTecla();
+        limpiarConsola();
+
+        // Figuras: Ejercicio 12 Ruth Rueda
+        System.out.println("----- Figura 12 -----");
+        CodeCrewFigura12 oCodeCrewFigura12 = new CodeCrewFigura12();
+        oCodeCrewFigura12.showFigura12((byte) tamañoFigura);
+        esperarTecla();
+        limpiarConsola();
+
+        // Figuras: Ejercicio 13 Ruth Rueda
+        System.out.println("----- Figura 13 -----");
+        CodeCrewFigura13 oCodeCrewFigura13 = new CodeCrewFigura13();
+        oCodeCrewFigura13.showFigura13((byte) tamañoFigura);
         esperarTecla();
         limpiarConsola();
 
@@ -388,6 +418,16 @@ public class App {
         } while (oCodeCrewCadena8.mostrarCadena8(anagrama) == false && cont++ < 3);
         esperarTecla();
         limpiarConsola();
+
+        // Cadena de caracteres 9: Ruth Rueda
+        System.out.println("----- Cadena 9 -----");
+        System.out.println("Ingresa una frase y convierte una letra a mayúsculas y otra a minúsculas");
+        System.out.println("\t Frase : " + frase);
+        CodeCrewCadena9 oCodeCrewCadena9 = new CodeCrewCadena9();
+        oCodeCrewCadena9.showCadena9(frase);
+        esperarTecla();
+        limpiarConsola();
+
         // Arrays 1: Angel Pastaz
 
         System.out.println("Mi nombre es: Angel Sebastian Pastaz Quishpe");
@@ -410,6 +450,11 @@ public class App {
         // Arrays 3: Sebastian Sarasti
         CodeCrewArrays3 oCodeCrewArrays3 = new CodeCrewArrays3();
         oCodeCrewArrays3.mostrarArray3();
+        esperarTecla();
+        limpiarConsola();
+
+        // Arrays 4: Ruth Rueda
+        CodeCrewArrays4 oCodeCrewArrays4 = new CodeCrewArrays4();
         esperarTecla();
         limpiarConsola();
 
@@ -476,6 +521,12 @@ public class App {
         CodeCrewLoading8 oCodeCrewLoading8 = new CodeCrewLoading8();
         oCodeCrewLoading8.mostrarLoading8(nombreUser);
         System.out.println();
+        esperarTecla();
+        limpiarConsola();
+
+        // Loading: Ejercicio 10 Ruth Rueda
+        System.out.println("----- Loading 10 -----");
+        CodeCrewLoading10 oCodeCrewLoading10 = new CodeCrewLoading10();
         esperarTecla();
         limpiarConsola();
 
