@@ -453,7 +453,7 @@ public class App {
         esperarTecla();
         limpiarConsola();
 
-        // Loading: Ejercicio 8 Sebastian Sarasti
+        // Loading: Ejercicio 9 Sebastian Sarasti
         System.out.println("----- Loading 9 -----");
         System.out.println("Ingrese un nombre o String");
         frase = sc.nextLine();
@@ -481,6 +481,36 @@ public class App {
         oCodeCrewRecursion3.mostrarRecursion3();
         esperarTecla();
         limpiarConsola();
+        // Recursion: Ejercicio 4 Sebastian Sarasti
+        System.out.println("----- Recursion 4 -----");
+        bandera = true;
+        int base = 0, exponente = 0;
+        while (bandera == true) {
+            try {
+                System.out.print("Ingresa el número base: ");
+                base = (Integer.parseInt(sc.nextLine()));
+                bandera = false;
+            } catch (NumberFormatException e) {
+                System.out.println("Por favor ingrese un numero entero");
+                bandera = true;
+            }
+
+        }
+        bandera = true;
+        while (bandera == true) {
+            try {
+                System.out.print("Ingresa el exponente: ");
+                exponente = (Integer.parseInt(sc.nextLine()));
+                bandera = false;
+            } catch (NumberFormatException e) {
+                System.out.println("Por favor ingrese un numero entero");
+                bandera = true;
+            }
+
+        }
+        CodeCrewRecursion4 oCodeCrewRecursion4 = new CodeCrewRecursion4();
+        System.out.println(
+                base + " elevado a la " + exponente + " es: " + oCodeCrewRecursion4.calcularPotencia(base, exponente));
 
         // Recursion: Ejercicio 6 Jhordy Parra
         System.out.println("----- Recursion 6 -----");
