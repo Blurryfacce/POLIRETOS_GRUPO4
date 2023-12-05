@@ -345,7 +345,7 @@ public class App {
         esperarTecla();
         limpiarConsola();
 
-        // Arrays 2: Sebastián Ramos Carrillo
+        // Arrays 2: Sebastian Ramos Carrillo
         System.out.println("Mi nombre es: Sebastián Carrillo.Mis iniciales son: S C");
         System.out.println("Ingrese el tamaño");
         tamañoMatriz = Integer.parseInt(sc.nextLine());
