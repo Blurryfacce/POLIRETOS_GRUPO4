@@ -387,7 +387,14 @@ public class App {
         } while (oCodeCrewCadena8.mostrarCadena8(anagrama) == false && cont++ < 3);
         esperarTecla();
         limpiarConsola();
-
+        // Arrays 1: Angel Pastaz
+        
+        System.out.println("Mi nombre es: Angel Sebastian Pastaz Quishpe");
+        CodeCrewArrays1 oCodeCrewArrays1 = new CodeCrewArrays1();
+        oCodeCrewArrays1.mostrarArray1();
+        esperarTecla();
+        limpiarConsola();
+        
         // Arrays 2: Sebastián Ramos Carrillo
         System.out.println("Mi nombre es: Sebastián Carrillo.Mis iniciales son: S C");
         System.out.println("Ingrese el tamaño");
