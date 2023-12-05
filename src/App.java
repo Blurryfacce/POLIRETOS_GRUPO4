@@ -22,6 +22,12 @@ public class App {
     }
 
     public static void main(String[] args) throws Exception {
+        // Loading: Ejercicio 8 Sebastian Sarasti
+        System.out.println("----- Loading 9 -----");
+        CodeCrewLoading9 oCodeCrewLoading9 = new CodeCrewLoading9();
+        oCodeCrewLoading9.mostrarLoading9("ESTEFANIA");
+        esperarTecla();
+        limpiarConsola();
         boolean bandera = true;
         int numeroVeces = 0;
         int tamañoFigura = 0;
