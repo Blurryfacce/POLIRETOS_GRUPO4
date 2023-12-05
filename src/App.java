@@ -108,7 +108,7 @@ public class App {
         oCodeCrewSerie7.mostrarSerie7While(numeroVeces);
         esperarTecla();
         limpiarConsola();
-        // Ejercicio 8 Sebastian Sarasti L.
+        // Ejercicio 8 Sebastian Sarasti
         CodeCrewSerie8 oCodeCrewSerie8 = new CodeCrewSerie8();
         System.out.println("----Serie 8---For----");
         oCodeCrewSerie8.mostrarSerie8For(numeroVeces);
