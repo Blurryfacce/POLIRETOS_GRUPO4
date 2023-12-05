@@ -10,12 +10,7 @@ public class App {
         int tamañoFigura = 0;
         int tamañoMatriz = 0;
         char caracter = ' ';
-        // Loading: Ejercicio 1 Sebastian Sarasti
-        System.out.println("----- Loading 1 -----");
-        CodeCrewLoading1 oCodeCrewLoading1 = new CodeCrewLoading1();
-        oCodeCrewLoading1.mostrarLoading1();
-        esperarTecla();
-        limpiarConsola();
+
         String red = "\033[31m", yellow = "\033[33m", cyan = "\033[36m", reset = "\u001B[0m";
         System.out.println(cyan + "Hello, Grupo 4: CodeCrew" + reset);
         System.out.println(red + "Integrantes: " + reset);
@@ -113,7 +108,7 @@ public class App {
         oCodeCrewSerie7.mostrarSerie7While(numeroVeces);
         esperarTecla();
         limpiarConsola();
-        // Ejercicio 8 Sebastian Sarasti
+        // Ejercicio 8 Sebastian Sarasti L.
         CodeCrewSerie8 oCodeCrewSerie8 = new CodeCrewSerie8();
         System.out.println("----Serie 8---For----");
         oCodeCrewSerie8.mostrarSerie8For(numeroVeces);
@@ -372,7 +367,12 @@ public class App {
         oCodeCrewArrays5.mostrarArray5();
         esperarTecla();
         limpiarConsola();
-
+        // Loading: Ejercicio 1 Sebastian Sarasti
+        System.out.println("----- Loading 1 -----");
+        CodeCrewLoading1 oCodeCrewLoading1 = new CodeCrewLoading1();
+        oCodeCrewLoading1.mostrarLoading1();
+        esperarTecla();
+        limpiarConsola();
         // Loading: Ejercicio 2 Christian Pisco
         System.out.println("----- Loading 2 -----");
         CodeCrewLoading2 oCodeCrewLoading2 = new CodeCrewLoading2();
