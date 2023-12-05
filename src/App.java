@@ -8,12 +8,15 @@ public class App {
         boolean bandera = true;
         int numeroVeces = 0;
         int tamañoFigura = 0;
+        int tamañoMatriz=0;
+        char caracter=' ';
+    
         String red = "\033[31m", yellow = "\033[33m", cyan = "\033[36m", reset = "\u001B[0m";
         System.out.println(cyan + "Hello, Grupo 4: CodeCrew" + reset);
         System.out.println(red + "Integrantes: " + reset);
         System.out.println(yellow + "Parra.Jhordy---Pastaz.Angel---Pisco.Christian---ProaÃ±o.Isaac");
         System.out.println("Ramos.Sebastian---Rueda.Ruth---Sarasti.Sebastian---Zambrano.Jhair" + reset);
-
+        
         esperarTecla();
         limpiarConsola();
 
@@ -28,6 +31,7 @@ public class App {
                 bandera = true;
             }
         }
+        
 
         // Ejercicio 1 Ruth Rueda
         CodeCrewSerie1 oCodeCrewSerie1 = new CodeCrewSerie1();
@@ -341,6 +345,17 @@ public class App {
         } while (oCodeCrewCadena8.mostrarCadena8(anagrama) == false && cont++ < 3);
         esperarTecla();
         limpiarConsola();
+
+        //Arrays 2: Sebastián Ramos Carrillo
+        System.out.println("Mi nombre es: Sebastián Carrillo.Mis iniciales son: S C");
+        System.out.println("Ingrese el tamaño");
+        tamañoMatriz= Integer.parseInt(sc.nextLine());
+        System.out.println("Ingrese el caracter");
+        caracter= sc.next().charAt(0);
+        CodeCrewArrays2 oCodeCrewArrays2= new CodeCrewArrays2();
+        oCodeCrewArrays2.crearMatriz(tamañoMatriz, caracter);
+        oCodeCrewArrays2.mostrarMatriz();
+        esperarTecla();
 
         // Arrays 3: Sebastian Sarasti
         CodeCrewArrays3 oCodeCrewArrays3 = new CodeCrewArrays3();
