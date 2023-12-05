@@ -4,8 +4,8 @@ public class App {
 
     private static Scanner sc = new Scanner(System.in);
 
-    // Control de errores en Recursion
-    private static int pedirNumero(String mensaje) {
+    //Control de errores en Recursion
+    private static int pedirNumero(String mensaje){
         int numero = 0;
         boolean inputValido = false;
 
@@ -273,6 +273,13 @@ public class App {
         esperarTecla();
         limpiarConsola();
 
+        // Figuras:Ejercicio 6 Jhair Zambrano
+        System.out.println("----- Figura 6 -----");
+        CodeCrewFigura6 oCodeCrewFigura6 = new CodeCrewFigura6();
+        oCodeCrewFigura6.mostrarFigura6(tamañoFigura);
+        esperarTecla();
+        limpiarConsola();
+
         // Figuras: Ejercicio 7 Jhordy Parra
         System.out.println("----- Figura 7 -----");
         CodeCrewFigura7 oCodeCrewFigura7 = new CodeCrewFigura7();
@@ -293,7 +300,7 @@ public class App {
         oCodeCrewFigura9.mostrarFigura9((int) tamañoFigura);
         esperarTecla();
         limpiarConsola();
-
+        
         // Figuras: Ejercicio 10 Isaac Proaño
         System.out.println("----- Figura 10 -----");
         CodeCrewFigura10 oCodeCrewFigura10 = new CodeCrewFigura10();
@@ -342,6 +349,7 @@ public class App {
         oCodeCrewFigura18.mostrarFigura18((int) tamañoFigura);
         esperarTecla();
         limpiarConsola();
+       
 
         System.out.println("Ingrese la frase que desea trabajar");
         String frase = sc.nextLine();
@@ -370,6 +378,20 @@ public class App {
         System.out.println("----- Cadena 4 -----");
         CodeCrewCadena4 oCodeCrewCadena4 = new CodeCrewCadena4();
         oCodeCrewCadena4.mostrarCadena4(frase);
+        esperarTecla();
+        limpiarConsola();
+
+        //Cadena de caracteres 5: Jhair Zambrano
+        System.out.println("----- Cadena 5 -----");
+        CodeCrewCadena5 oCodeCrewCadena5 = new CodeCrewCadena5();
+        oCodeCrewCadena5.mostrarCadena5(frase);
+        esperarTecla();
+        limpiarConsola();
+        
+        //Cadena de caracteres 6: Jhair Zambrano
+        System.out.println("----- Cadena 6 -----");
+        CodeCrewCadena6 oCodeCrewCadena6 = new CodeCrewCadena6();
+        oCodeCrewCadena6.mostrarCadena6(frase);
         esperarTecla();
         limpiarConsola();
 
@@ -409,18 +431,13 @@ public class App {
         oCodeCrewArrays3.mostrarArray3();
         esperarTecla();
         limpiarConsola();
-
+        
         // Arrays 5: Christian Pisco
         CodeCrewArrays5 oCodeCrewArrays5 = new CodeCrewArrays5();
         oCodeCrewArrays5.mostrarArray5();
         esperarTecla();
         limpiarConsola();
-        // Loading: Ejercicio 1 Sebastian Sarasti
-        System.out.println("----- Loading 1 -----");
-        CodeCrewLoading1 oCodeCrewLoading1 = new CodeCrewLoading1();
-        oCodeCrewLoading1.mostrarLoading1();
-        esperarTecla();
-        limpiarConsola();
+
         // Loading: Ejercicio 2 Christian Pisco
         System.out.println("----- Loading 2 -----");
         CodeCrewLoading2 oCodeCrewLoading2 = new CodeCrewLoading2();
@@ -434,10 +451,10 @@ public class App {
         oCodeCrewLoading3.mostrarLoading3();
         esperarTecla();
         limpiarConsola();
-
-        // Loading: Ejercicio 4 Sebastián Ramos
+        
+        //Loading: Ejercicio 4 Sebastián Ramos
         System.out.println("----- Loading 4 -----");
-        CodeCrewLoading4 oCodeCrewLoading4 = new CodeCrewLoading4();
+        CodeCrewLoading4 oCodeCrewLoading4= new CodeCrewLoading4();
         oCodeCrewLoading4.mostrarLoading4();
         esperarTecla();
         limpiarConsola();
@@ -458,7 +475,30 @@ public class App {
         esperarTecla();
         limpiarConsola();
 
-        // Recursion: Ejercicio 2 Jhordy Parra
+        //Loading: Ejercicio 7 Jhair Zambrano
+        System.out.println("----- Loading 7 -----");
+        CodeCrewLoading7 oCodeCrewLoading7 = new CodeCrewLoading7();
+        oCodeCrewLoading7.mostrarLoading7();
+        System.out.println();
+        esperarTecla();
+        limpiarConsola();
+        
+        //Loading: Ejercicio 8 Jhair Zambrano
+        System.out.println("----- Loading 8 -----");
+        CodeCrewLoading8 oCodeCrewLoading8 = new CodeCrewLoading8();
+        oCodeCrewLoading8.mostrarLoading8();
+        System.out.println();
+        esperarTecla();
+        limpiarConsola();
+
+        //Recursión: Ejercicio 1 Jhair Zambrano
+        System.out.println("----- Recursion 1 -----");
+        CodeCrewRecursion1 oCodeCrewRecursion1 = new CodeCrewRecursion1();
+        oCodeCrewRecursion1.mostrarRecursion1();
+        esperarTecla();
+        limpiarConsola();
+
+        //Recursion: Ejercicio 2 Jhordy Parra
         System.out.println("----- Recursion 2 -----");
         CodeCrewRecursion2 oCodeCrewRecursion2 = new CodeCrewRecursion2();
         int numero1 = pedirNumero("Ingresa el primer numero a sumar ");
@@ -467,7 +507,7 @@ public class App {
         int numero2 = pedirNumero("Ingresa el segundo numero a sumar ");
         limpiarConsola();
         System.out.println("----- Recursion 2 -----");
-        oCodeCrewRecursion2.sumaRecursion(numero1, numero2);
+        oCodeCrewRecursion2.sumaRecursion(numero1,numero2);
         esperarTecla();
         limpiarConsola();
 
@@ -477,8 +517,8 @@ public class App {
         oCodeCrewRecursion3.mostrarRecursion3();
         esperarTecla();
         limpiarConsola();
-
-        // Recursion: Ejercicio 6 Jhordy Parra
+        
+        //Recursion: Ejercicio 6 Jhordy Parra
         System.out.println("----- Recursion 6 -----");
         CodeCrewRecursion6 oCodeCrewRecursion6 = new CodeCrewRecursion6();
         int num = pedirNumero("Ingrese un numero para el conteo regresivo ");
@@ -487,7 +527,7 @@ public class App {
         oCodeCrewRecursion6.mostrarConteoRegresivo(num);
         esperarTecla();
         limpiarConsola();
-
+        
         // Cierre del Scanner (Dejar siempre al final de main)
         sc.close();
     }
