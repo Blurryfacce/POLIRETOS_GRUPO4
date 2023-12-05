@@ -1,6 +1,6 @@
 public class CodeCrewLoading1 {
     /**
-     * Este metodo permite mostrar una barra de carga, la cual va cambiando el signo
+     * Este método permite mostrar una barra de carga, la cual va cambiando el signo
      * y el porcentaje
      */
     public void mostrarLoading1() {
