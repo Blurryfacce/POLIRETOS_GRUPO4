@@ -23,10 +23,11 @@ public class App {
 
     public static void main(String[] args) throws Exception {
         boolean bandera = true;
-        int numeroVeces = 0;
+        int numeroVeces = 0, numFac = 0;
         int tamañoFigura = 0;
         int tamañoMatriz = 0;
         char caracter = ' ';
+        String nombreUser = " ";
 
         String red = "\033[31m", yellow = "\033[33m", cyan = "\033[36m", reset = "\u001B[0m";
         System.out.println(cyan + "Hello, Grupo 4: CodeCrew" + reset);
@@ -34,7 +35,7 @@ public class App {
         System.out.println(yellow + "Parra.Jhordy---Pastaz.Angel---Pisco.Christian---ProaÃ±o.Isaac");
         System.out.println("Ramos.Sebastian---Rueda.Ruth---Sarasti.Sebastian---Zambrano.Jhair" + reset);
 
-        // Control de posibles errores
+       // Control de posibles errores
         while (bandera == true) {
             try {
                 System.out.println("Ingresa el numero de elementos hasta el cual deseas hacer las secuencias ");
@@ -46,7 +47,7 @@ public class App {
             }
         }
 
-        // Ejercicio 1 Ruth Rueda
+       // Ejercicio 1 Ruth Rueda
         CodeCrewSerie1 oCodeCrewSerie1 = new CodeCrewSerie1();
         System.out.println("----Serie 1---For----");
         oCodeCrewSerie1.showSerie1For(numeroVeces);
@@ -479,16 +480,29 @@ public class App {
         
         //Loading: Ejercicio 8 Jhair Zambrano
         System.out.println("----- Loading 8 -----");
+        System.out.println("Por favor ingrese su nombre");
+        nombreUser = sc.nextLine();
         CodeCrewLoading8 oCodeCrewLoading8 = new CodeCrewLoading8();
-        oCodeCrewLoading8.mostrarLoading8();
+        oCodeCrewLoading8.mostrarLoading8(nombreUser);
         System.out.println();
         esperarTecla();
         limpiarConsola();
 
         //Recursión: Ejercicio 1 Jhair Zambrano
         System.out.println("----- Recursion 1 -----");
+        // Control de posibles errores
+        while (bandera == true) {
+            try {
+                System.out.println("Ingresa el numero que desee saber su factorial ");
+                numFac = Integer.parseInt(sc.nextLine());
+                bandera = false;
+            } catch (NumberFormatException e) {
+                System.out.println("Por favor ingrese un numero entero");
+                bandera = true;
+            }
+        }
         CodeCrewRecursion1 oCodeCrewRecursion1 = new CodeCrewRecursion1();
-        oCodeCrewRecursion1.mostrarRecursion1();
+        oCodeCrewRecursion1.mostrarRecursion1(numFac);
         esperarTecla();
         limpiarConsola();
 

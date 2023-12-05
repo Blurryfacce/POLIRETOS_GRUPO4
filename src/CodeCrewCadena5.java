@@ -1,3 +1,12 @@
+/* Copyright (C) 2023, Jhair Zambrano
+ * (CodeCrew) jhairzp27@hotmail.com
+ * version 2.0
+ */
+
+/**
+ * @author Jhair Zambrano
+ */
+
 public class CodeCrewCadena5 {
 
     public void mostrarCadena5(String frase){
@@ -5,6 +14,10 @@ public class CodeCrewCadena5 {
         System.out.println(frase);
     }
 
+    /**
+     * @param frase ingresada por teclado
+     * @return frase invertida y modificada
+     */
     public static String invertirYModificar(String frase) {
         StringBuilder builder = new StringBuilder(frase);
         builder.reverse();

@@ -1,6 +1,6 @@
 /* Copyright (C) 2023, Jhair Zambrano
  * (CodeCrew) jhairzp27@hotmail.com
- * version 1.5
+ * version 2.0
  */
 
 /**
@@ -9,6 +9,10 @@
  */
 public class CodeCrewFigura6 {
 
+    /**
+     * @param tamañoFigura ingresado por el usuario
+     * @return la figura deseada
+     */
     public void mostrarFigura6(int tamañoFigura){
         int i = 2, j = 2, a = 2, b = 2;
         int k = tamañoFigura;
