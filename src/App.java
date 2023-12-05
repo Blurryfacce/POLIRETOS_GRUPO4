@@ -17,7 +17,7 @@ public class App {
         esperarTecla();
         limpiarConsola();
 
-        /* // Control de posibles errores
+        // Control de posibles errores
         while (bandera == true) {
             try {
                 System.out.println("Ingresa el numero de elementos hasta el cual deseas hacer las secuencias ");
@@ -381,13 +381,6 @@ public class App {
         CodeCrewLoading6 oCodeCrewLoading6 = new CodeCrewLoading6();
         oCodeCrewLoading6.mostrarLoading6();
         System.out.println();
-        esperarTecla();
-        limpiarConsola(); */
-        
-        //Recursión: Ejercicio 3 Christian Pisco
-        System.out.println("----- Recursion 3 -----");
-        CodeCrewRecursion3 oCodeCrewRecursion3 = new CodeCrewRecursion3();
-        oCodeCrewRecursion3.mostrarRecursion3();
         esperarTecla();
         limpiarConsola();
         
