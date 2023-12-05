@@ -10,8 +10,8 @@ public class CodeCrewArrays1 {
     public void mostrarArray1() {
         String[] names = {"Angel", "Sebastian", "Pastaz", "Quishpe"};
 
-        for (String name : nombres) {
-            nameAnimated(nombre, nombre.length());
+        for (String name : names) {
+            nameAnimated(name, name.length());
         }
     }
     /*

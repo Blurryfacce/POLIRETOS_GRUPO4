@@ -388,13 +388,13 @@ public class App {
         esperarTecla();
         limpiarConsola();
         // Arrays 1: Angel Pastaz
-        
+
         System.out.println("Mi nombre es: Angel Sebastian Pastaz Quishpe");
         CodeCrewArrays1 oCodeCrewArrays1 = new CodeCrewArrays1();
         oCodeCrewArrays1.mostrarArray1();
         esperarTecla();
         limpiarConsola();
-        
+
         // Arrays 2: Sebastián Ramos Carrillo
         System.out.println("Mi nombre es: Sebastián Carrillo.Mis iniciales son: S C");
         System.out.println("Ingrese el tamaño");
@@ -515,7 +515,7 @@ public class App {
             }
 
         }
-        
+
         CodeCrewRecursion4 oCodeCrewRecursion4 = new CodeCrewRecursion4();
         System.out.println(
                 base + " elevado a la " + exponente + " es: " + oCodeCrewRecursion4.calcularPotencia(base, exponente));
