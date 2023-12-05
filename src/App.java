@@ -406,6 +406,7 @@ public class App {
         CodeCrewRecursion2 oCodeCrewRecursion2 = new CodeCrewRecursion2();
         int numero1 = pedirNumero("Ingresa el primer numero a sumar ");
         limpiarConsola();
+        System.out.println("----- Recursion 2 -----");
         int numero2 = pedirNumero("Ingresa el segundo numero a sumar ");
         limpiarConsola();
         System.out.println("----- Recursion 2 -----");
@@ -413,6 +414,16 @@ public class App {
         esperarTecla();
         limpiarConsola();
 
+        //Recursion: Ejercicio 6 Jhordy Parra
+        System.out.println("----- Recursion 6 -----");
+        CodeCrewRecursion6 oCodeCrewRecursion6 = new CodeCrewRecursion6();
+        int num = pedirNumero("Ingrese un numero para el conteo regresivo ");
+        limpiarConsola();
+        System.out.println("----- Recursion 6 -----");
+        oCodeCrewRecursion6.mostrarConteoRegresivo(num);
+        esperarTecla();
+        limpiarConsola();
+        
         // Cierre del Scanner (Dejar siempre al final de main)
         sc.close();
     }
