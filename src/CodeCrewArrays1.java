@@ -1,13 +1,24 @@
+/* Copyright (C) 2023, Angel_Pastaz
+ * (CodeCrew) angel.pastaz@epn.edu.ec
+ * version 1.0
+ */
+/**
+ * Esta clase sirve para generar loadings en base a nuestros nombres"
+ */
 public class CodeCrewArrays1 {
 
     public void mostrarArray1() {
-        String[] nombres = {"Angel", "Sebastian", "Pastaz", "Quishpe"};
+        String[] names = {"Angel", "Sebastian", "Pastaz", "Quishpe"};
 
-        for (String nombre : nombres) {
+        for (String name : nombres) {
             nameAnimated(nombre, nombre.length());
         }
     }
-
+    /*
+     * Anima el loading, porcentaje y el nombre
+     * @param name el nombre o apellido que está en el array nombres
+     * @param size tamaño del String name
+     */
     public void nameAnimated(String name, int size) {
         String[] Barra = {"[", " ", "]"};
         float sizeFloat = (float) size;
@@ -37,7 +48,10 @@ public class CodeCrewArrays1 {
         System.out.println();
     }
     
-
+    /*
+     * Imprime el contenido que está dentro de la barra en base a un parametro
+     * @param size tamaño del String name que será usado como tamaño de la barra
+     */
     public void barraCuerpo(int size) {
         String cuerpoBarra = "=";
     
@@ -45,13 +59,18 @@ public class CodeCrewArrays1 {
             System.out.print(cuerpoBarra);
         }
     }
-
+    
+    /* Imprime el espacio vacío despues del contenido de la barra
+     * @param size cantidad de los espacios a imprimir 
+     */
     public void barraEspacio(int size) {
         for (int k = 1; k < size; k++) {
             System.out.print(" ");
         }
     }
-
+    /* Simula el "delay" de otros lenguajes
+     * @param milisegundos tiempo que dará una pausa
+     */
     public void delay(int milisegundos) throws InterruptedException {
         Thread.sleep(milisegundos);
     }
