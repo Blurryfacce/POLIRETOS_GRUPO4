@@ -508,9 +508,18 @@ public class App {
             }
 
         }
+        
         CodeCrewRecursion4 oCodeCrewRecursion4 = new CodeCrewRecursion4();
         System.out.println(
                 base + " elevado a la " + exponente + " es: " + oCodeCrewRecursion4.calcularPotencia(base, exponente));
+        esperarTecla();
+        limpiarConsola();
+        System.out.println("----- Recursion 5 -----");
+        CodeCrewRecursion5 oCodeCrewRecursion5 = new CodeCrewRecursion5();
+        int nume = pedirNumero("Ingrese un numero para el conteo regresivo ");
+        limpiarConsola();
+        System.out.println("----- Recursion 5 -----");
+        oCodeCrewRecursion5.mostrarConteoRegresivo(nume);
         esperarTecla();
         limpiarConsola();
         // Recursion: Ejercicio 6 Jhordy Parra
