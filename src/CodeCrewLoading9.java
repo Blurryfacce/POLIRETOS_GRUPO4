@@ -1,5 +1,9 @@
 import java.util.Arrays;
-
+/*
+ * Copyright (C) 2k23, Sebastian Sarasti
+ * (CodeCrew) sebastian.sarasti01@epn.edu.ec
+ * Version 1.0
+ */
 public class CodeCrewLoading9 {
     /**
      * Este método permite mostrar el nombre completo, mostrando solo una letra en
