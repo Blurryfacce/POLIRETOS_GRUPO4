@@ -1,7 +1,7 @@
 public class CodeCrewLoading1 {
     /**
      * Este método permite mostrar una barra de carga, la cual va cambiando el signo
-     * y el porcentaje
+     * y el porcentaje se va incrementando
      */
     public void mostrarLoading1() {
         String caracteresLoading[] = { "|", "/", "-", "\\" };
