@@ -28,6 +28,7 @@ public class CodeCrewLoading10 {
      */
     private void printFigura(int desplazamiento) {
         String espacios = repeatString("  ", desplazamiento);
+        System.out.println("----- Loading 10 -----");
         System.out.println(espacios + "   \\|||/");
         System.out.println(espacios + "   (> <)");
         System.out.println(espacios + "ooO-(_)-Ooo");
