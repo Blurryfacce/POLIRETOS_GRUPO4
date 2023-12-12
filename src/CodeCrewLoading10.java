@@ -5,7 +5,7 @@
  */
 
 public class CodeCrewLoading10 {
-    public CodeCrewLoading10() {
+    public void mostrarLoading10() {
         int desplazamiento = 10;
         // Desplazar hacia la derecha
         for (int i = 0; i <= desplazamiento; i++) {
@@ -28,7 +28,6 @@ public class CodeCrewLoading10 {
      */
     private void printFigura(int desplazamiento) {
         String espacios = repeatString("  ", desplazamiento);
-        System.out.println("----- Loading 10 -----");
         System.out.println(espacios + "   \\|||/");
         System.out.println(espacios + "   (> <)");
         System.out.println(espacios + "ooO-(_)-Ooo");

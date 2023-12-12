@@ -13,10 +13,9 @@ public class CodeCrewArrays4 {
         
     private static int fila = 0, columna = 0;
     
-    public CodeCrewArrays4() {
+    public void mostrarArrays4() {
         System.out.println("");
         clearTerminal();
-        System.out.println("----- Array 4 -----");
         matrizFX();
         System.out.println();
     }
@@ -26,7 +25,7 @@ public class CodeCrewArrays4 {
         System.out.flush();
     }
 
-    private void matrizFX() {
+    public void matrizFX() {
         String[][] matrizFX = new String[13][5];
 
         /* Para rellenar la matriz */

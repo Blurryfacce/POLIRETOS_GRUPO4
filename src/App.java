@@ -429,7 +429,7 @@ public class App {
         limpiarConsola();
 
         // Arrays 1: Angel Pastaz
-
+        System.out.println("----- Arrays 1 -----");
         System.out.println("Mi nombre es: Angel Sebastian Pastaz Quishpe");
         CodeCrewArrays1 oCodeCrewArrays1 = new CodeCrewArrays1();
         oCodeCrewArrays1.mostrarArray1();
@@ -437,6 +437,7 @@ public class App {
         limpiarConsola();
 
         // Arrays 2: Sebastián Ramos Carrillo
+        System.out.println("----- Arrays 2 -----");
         System.out.println("Mi nombre es: Sebastián Carrillo.Mis iniciales son: S C");
         System.out.println("Ingrese el tamaño");
         tamañoMatriz = Integer.parseInt(sc.nextLine());
@@ -448,17 +449,21 @@ public class App {
         esperarTecla();
 
         // Arrays 3: Sebastian Sarasti
+        System.out.println("----- Arrays 3 -----");
         CodeCrewArrays3 oCodeCrewArrays3 = new CodeCrewArrays3();
         oCodeCrewArrays3.mostrarArray3();
         esperarTecla();
         limpiarConsola();
 
         // Arrays 4: Ruth Rueda
+        System.out.println("----- Arrays 4 -----");
         CodeCrewArrays4 oCodeCrewArrays4 = new CodeCrewArrays4();
+        oCodeCrewArrays4.mostrarArrays4();
         esperarTecla();
         limpiarConsola();
 
         // Arrays 5: Christian Pisco
+        System.out.println("----- Arrays 5 -----");
         CodeCrewArrays5 oCodeCrewArrays5 = new CodeCrewArrays5();
         oCodeCrewArrays5.mostrarArray5();
         esperarTecla();
@@ -527,6 +532,7 @@ public class App {
         // Loading: Ejercicio 10 Ruth Rueda
         System.out.println("----- Loading 10 -----");
         CodeCrewLoading10 oCodeCrewLoading10 = new CodeCrewLoading10();
+        oCodeCrewLoading10.mostrarLoading10();
         esperarTecla();
         limpiarConsola();
 
