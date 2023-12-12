@@ -37,18 +37,33 @@ public class App {
         System.out.println("Ramos.Sebastian---Rueda.Ruth---Sarasti.Sebastian---Zambrano.Jhair" + reset);
 
        // Control de posibles errores
-        while (bandera == true) {
+    
+        boolean bandera3 = true;
+        while (bandera == true && bandera3 == true) {
             try {
                 System.out.println("Ingresa el numero de elementos hasta el cual deseas hacer las secuencias ");
                 numeroVeces = Integer.parseInt(sc.nextLine());
+                while (bandera3==true) {
+                    if (numeroVeces <= 0) {
+                        
+                        System.out.println("El numero debe ser natural");
+                        numeroVeces = Integer.parseInt(sc.nextLine());
+                        bandera3 = true;
+                            
+                    } else {
+                        bandera3 = false;
+                    }
+                }
+
                 bandera = false;
             } catch (NumberFormatException e) {
                 System.out.println("Por favor ingrese un numero entero");
                 bandera = true;
             }
         }
+        
 
-/*        // Ejercicio 1 Ruth Rueda
+        // Ejercicio 1 Ruth Rueda
         CodeCrewSerie1 oCodeCrewSerie1 = new CodeCrewSerie1();
         System.out.println("----Serie 1---For----");
         oCodeCrewSerie1.showSerie1For(numeroVeces);
@@ -243,6 +258,19 @@ public class App {
             try {
                 System.out.println("Ingresa el tamaño de la figura");
                 tamañoFigura = Integer.parseInt(sc.nextLine());
+                boolean bandera4 = true;
+                while (bandera4==true) {
+                    if (tamañoFigura <= 0) {
+                        
+                        System.out.println("El numero debe ser natural");
+                        tamañoFigura = Integer.parseInt(sc.nextLine());
+                        bandera4 = true;
+                            
+                    } else {
+                        bandera4 = false;
+                    }
+                }
+
                 bandera = false;
             } catch (NumberFormatException e) {
                 System.out.println("Por favor ingrese un numero entero");
@@ -535,15 +563,17 @@ public class App {
         oCodeCrewLoading10.mostrarLoading10();
         esperarTecla();
         limpiarConsola();
- */
+ 
         //Recursión: Ejercicio 1 Jhair Zambrano
         System.out.println("----- Recursion 1 -----");
         // Control de posibles errores
         while (bandera2 == true) {
             try {
                 System.out.println("Ingresa el numero que desee saber su factorial ");
+                boolean bandera4=true;
                 numFac = Integer.parseInt(sc.nextLine());
                 bandera2 = false;
+
             } catch (NumberFormatException e) {
                 System.out.println("Por favor ingrese un numero entero");
                 bandera2 = true;
