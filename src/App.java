@@ -23,7 +23,7 @@ public class App {
 
     public static void main(String[] args) throws Exception {
 
-        boolean bandera = true;
+        boolean bandera = true, bandera2 = true;
         int numeroVeces = 0, numFac = 0;
         int tamañoFigura = 0;
         int tamañoMatriz = 0;
@@ -48,7 +48,7 @@ public class App {
             }
         }
 
-       // Ejercicio 1 Ruth Rueda
+/*        // Ejercicio 1 Ruth Rueda
         CodeCrewSerie1 oCodeCrewSerie1 = new CodeCrewSerie1();
         System.out.println("----Serie 1---For----");
         oCodeCrewSerie1.showSerie1For(numeroVeces);
@@ -535,18 +535,18 @@ public class App {
         oCodeCrewLoading10.mostrarLoading10();
         esperarTecla();
         limpiarConsola();
-
+ */
         //Recursión: Ejercicio 1 Jhair Zambrano
         System.out.println("----- Recursion 1 -----");
         // Control de posibles errores
-        while (bandera == true) {
+        while (bandera2 == true) {
             try {
                 System.out.println("Ingresa el numero que desee saber su factorial ");
                 numFac = Integer.parseInt(sc.nextLine());
-                bandera = false;
+                bandera2 = false;
             } catch (NumberFormatException e) {
                 System.out.println("Por favor ingrese un numero entero");
-                bandera = true;
+                bandera2 = true;
             }
         }
         CodeCrewRecursion1 oCodeCrewRecursion1 = new CodeCrewRecursion1();
