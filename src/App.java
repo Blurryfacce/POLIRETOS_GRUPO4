@@ -8,18 +8,26 @@ public class App {
     private static int pedirNumero(String mensaje) {
         int numero = 0;
         boolean inputValido = false;
-
+    
         while (!inputValido) {
             try {
                 System.out.println(mensaje);
                 numero = Integer.parseInt(sc.nextLine());
-                inputValido = true;
+    
+                if (numero >= 0) {
+                    inputValido = true;
+                } else {
+                    System.out.println("Por favor, ingrese un numero positivo.");
+                }
+    
             } catch (NumberFormatException e) {
-                System.out.println("Por favor ingrese un numero entero");
+                System.out.println("Por favor, ingrese un numero entero.");
             }
         }
+    
         return numero;
     }
+    
 
     public static void main(String[] args) throws Exception {
 
