@@ -3,7 +3,7 @@
  * version 1.0
  */
 /**
- * Esta clase genera la serie de caracteres 5
+ * Esta clase genera la serie de caracteres 5: \  |  /  -  |  \  |  /  -  |  \  |  /  -  | ....
  */
 public class CodeCrewCaracter5 {
     public void mostrarSerieCaracter05(int numeroVeces) {
