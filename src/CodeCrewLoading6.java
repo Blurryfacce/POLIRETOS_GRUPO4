@@ -9,7 +9,7 @@ public class CodeCrewLoading6 {
     public void mostrarLoading6() {
         String flecha = "<=>";
         int size= 19;
-        final int  SLEEP = 500;
+        final int  SLEEP = 80;
         String [] bordes = {"[","]"};
         //Movimiento hacia la izquierda
         for(int i=1; i<size; i++){
