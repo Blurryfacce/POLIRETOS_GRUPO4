@@ -1,21 +1,24 @@
 /*
- * Copyright (C) 2k23, Sebastian Sarasti
+ * Copyright (C) 2023, Sebastian Sarasti
  * (CodeCrew) sebastian.sarasti01@epn.edu.ec
- * Version 1.0
+ * Version 1.2
  */
 public class CodeCrewRecursion4 {
+
     /**
-     * Este método permite calcular la potencia de un numero
+     * Este método permite calcular la potencia de un número.
      * 
-     * @param base      es el numero base
-     * @param exponente es el numero a lo que se eleva la base
-     * @return
+     * @param base      es el número base
+     * @param exponente es el número a lo que se eleva la base
+     * @return la potencia calculada
      */
-    public int calcularPotencia(int base, int exponente) {
+    public double calcularPotencia(double base, int exponente) {
         if (exponente == 0) {
             return 1;
-        } else {
+        } else if (exponente > 0) {
             return base * calcularPotencia(base, exponente - 1);
+        } else {
+            return 1 / (base * calcularPotencia(base, Math.abs(exponente) - 1));
         }
     }
 }
