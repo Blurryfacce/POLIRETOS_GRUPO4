@@ -14,7 +14,7 @@ public class CodeCrewLoading2 {
      * Este método pide un carácter y simula una barra de carga con este
      */
     public void mostrarLoading2() throws InterruptedException {
-        System.out.print("Ingresa el carácter de carga: ");
+        System.out.print("Ingresa el carácter de carga\n(sólo se aceptará el primer carácter ingresado): ");
         char caracter = sc.next().charAt(0);
 
         int porcentaje = 0;
