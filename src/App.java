@@ -8,26 +8,25 @@ public class App {
     private static int pedirNumero(String mensaje) {
         int numero = 0;
         boolean inputValido = false;
-    
+
         while (!inputValido) {
             try {
                 System.out.println(mensaje);
                 numero = Integer.parseInt(sc.nextLine());
-    
+
                 if (numero >= 0) {
                     inputValido = true;
                 } else {
                     System.out.println("Por favor, ingrese un numero positivo.");
                 }
-    
+
             } catch (NumberFormatException e) {
                 System.out.println("Por favor, ingrese un numero entero.");
             }
         }
-    
+
         return numero;
     }
-    
 
     public static void main(String[] args) throws Exception {
 
@@ -44,20 +43,20 @@ public class App {
         System.out.println(yellow + "Parra.Jhordy---Pastaz.Angel---Pisco.Christian---ProaÃ±o.Isaac");
         System.out.println("Ramos.Sebastian---Rueda.Ruth---Sarasti.Sebastian---Zambrano.Jhair" + reset);
 
-       // Control de posibles errores
-    
+        // Control de posibles errores
+
         boolean bandera3 = true;
         while (bandera == true && bandera3 == true) {
             try {
                 System.out.println("Ingresa el numero de elementos hasta el cual deseas hacer las secuencias ");
                 numeroVeces = Integer.parseInt(sc.nextLine());
-                while (bandera3==true) {
+                while (bandera3 == true) {
                     if (numeroVeces <= 0) {
-                        
+
                         System.out.println("El numero debe ser natural");
                         numeroVeces = Integer.parseInt(sc.nextLine());
                         bandera3 = true;
-                            
+
                     } else {
                         bandera3 = false;
                     }
@@ -69,7 +68,6 @@ public class App {
                 bandera = true;
             }
         }
-        
 
         // Ejercicio 1 Ruth Rueda
         CodeCrewSerie1 oCodeCrewSerie1 = new CodeCrewSerie1();
@@ -267,13 +265,13 @@ public class App {
                 System.out.println("Ingresa el tamaño de la figura");
                 tamañoFigura = Integer.parseInt(sc.nextLine());
                 boolean bandera4 = true;
-                while (bandera4==true) {
+                while (bandera4 == true) {
                     if (tamañoFigura <= 0) {
-                        
+
                         System.out.println("El numero debe ser natural");
                         tamañoFigura = Integer.parseInt(sc.nextLine());
                         bandera4 = true;
-                            
+
                     } else {
                         bandera4 = false;
                     }
@@ -547,15 +545,15 @@ public class App {
         esperarTecla();
         limpiarConsola();
 
-        //Loading: Ejercicio 7 Jhair Zambrano
+        // Loading: Ejercicio 7 Jhair Zambrano
         System.out.println("----- Loading 7 -----");
         CodeCrewLoading7 oCodeCrewLoading7 = new CodeCrewLoading7();
         oCodeCrewLoading7.mostrarLoading7();
         System.out.println();
         esperarTecla();
         limpiarConsola();
-        
-        //Loading: Ejercicio 8 Jhair Zambrano
+
+        // Loading: Ejercicio 8 Jhair Zambrano
         System.out.println("----- Loading 8 -----");
         System.out.println("Por favor ingrese su nombre");
         nombreUser = sc.nextLine();
@@ -565,20 +563,26 @@ public class App {
         esperarTecla();
         limpiarConsola();
 
+        // Loading: Ejercicio 9 Sebastian Sarasti
+        System.out.println("----- Loading 9 -----");
+        CodeCrewLoading9 oCodeCrewLoading9 = new CodeCrewLoading9();
+        oCodeCrewLoading9.mostrarLoading9(nombreUser);
+        esperarTecla();
+        limpiarConsola();
         // Loading: Ejercicio 10 Ruth Rueda
         System.out.println("----- Loading 10 -----");
         CodeCrewLoading10 oCodeCrewLoading10 = new CodeCrewLoading10();
         oCodeCrewLoading10.mostrarLoading10();
         esperarTecla();
         limpiarConsola();
- 
-        //Recursión: Ejercicio 1 Jhair Zambrano
+
+        // Recursión: Ejercicio 1 Jhair Zambrano
         System.out.println("----- Recursion 1 -----");
         // Control de posibles errores
         while (bandera2 == true) {
             try {
                 System.out.println("Ingresa el numero que desee saber su factorial ");
-                boolean bandera4=true;
+                boolean bandera4 = true;
                 numFac = Integer.parseInt(sc.nextLine());
                 bandera2 = false;
 
@@ -592,7 +596,7 @@ public class App {
         esperarTecla();
         limpiarConsola();
 
-        //Recursion: Ejercicio 2 Jhordy Parra
+        // Recursion: Ejercicio 2 Jhordy Parra
         System.out.println("----- Recursion 2 -----");
         CodeCrewRecursion2 oCodeCrewRecursion2 = new CodeCrewRecursion2();
         int numero1 = pedirNumero("Ingresa el primer numero a sumar ");
