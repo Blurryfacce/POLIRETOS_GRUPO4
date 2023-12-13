@@ -1,3 +1,9 @@
+/* Copyright (C) 2023, Angel_Pastaz
+ * (CodeCrew) angel.pastaz@epn.edu.ec
+ */
+/**
+ * Esta clase genera la figura de un rectangulo con asteriscos en el contorno
+ */
 public class CodeCrewFigura1 {
     public void mostrarFigura01(int altura){
 
