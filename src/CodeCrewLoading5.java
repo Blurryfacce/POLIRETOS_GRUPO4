@@ -25,31 +25,37 @@ public class CodeCrewLoading5 {
             System.out.print(porcentaje + "%");
             System.out.print("\r");
             try {
-                    delay(500);
+                    delay(80);
                 } catch (InterruptedException e) {
                     Thread.currentThread().interrupt();
                 }
             
         }
     }
-
+/**
+ * Simula el delay
+ */
     public void delay(int milisegundos) throws InterruptedException {
         Thread.sleep(milisegundos);
         
     }
+/**
+ * Imprime el cuerpo de la barra con el caracter "="
+ */
     public void barraCuerpo(int j){
         String cuerpoBarra = "=";
 
         for (int i=0; i < j; i++) {
-                System.out.print(cuerpoBarra);
-                
-                
-            }
+            System.out.print(cuerpoBarra);     
+        }
     }
+/**
+ * Espacio despues de la punta de la flecha
+ */
     public void barraEspacio(int size){
         for (int k=1; k <size; k++) {
-                System.out.print(" ");
-            }
+            System.out.print(" ");
+        }
     }
 }
 
