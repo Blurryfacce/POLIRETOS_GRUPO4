@@ -40,20 +40,27 @@ public class CodeCrewLoading6 {
             }
         }
     }
-
+/**
+ * Espacio antes de la flecha
+ */
     public void espacioCrece(int j){
         for(int i=1; i<j;i++)
             System.out.print(" ");
     }
+/**
+ * Espacio despues de la flecha
+ */
     public void espacioDecrece(int size){
         for(int i=1; i<size;i++){
             System.out.print(" ");
         }
 
     }
-
-    public void delay(int milisegundos) throws InterruptedException {
-        Thread.sleep(milisegundos);
+/**
+ * Simular el delay
+ */
+    public void delay(int delay) throws InterruptedException {
+        Thread.sleep(delay);
         
     }
 }
