@@ -18,15 +18,24 @@ public class CodeCrewArrays5 {
     public void mostrarArray5() throws InterruptedException {
         String nombre;
         int longitudNombre;
+        boolean inputValido = false;
 
         do {
             System.out.println("Ingrese su nombre completo (nombres y apellidos):");
             nombre = sc.nextLine();
             longitudNombre = nombre.indexOf(' ');
 
+            try {
+                if (longitudNombre == 0)
+                    throw new IllegalArgumentException("Por favor, no ingrese espacios antes del nombre");
+                inputValido = true;
+            } catch (IllegalArgumentException e) {
+                System.out.println(e.getMessage());
+            }
+
             if (longitudNombre == -1)
                 System.out.println("No ingrese solamente un nombre");
-        } while (longitudNombre == -1);
+        } while (longitudNombre == -1 || !inputValido);
 
         char[][] matriz = new char[longitudNombre][longitudNombre];
 
