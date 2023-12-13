@@ -3,7 +3,7 @@
  * version 1.0
  */
 /**
- * Esta clase genera la serie de caracteres 6
+ * Esta clase genera la serie de caracteres 6: a  b   c   d   e   f   g   h   ...
  */
 public class CodeCrewCaracter6 {
     public void mostrarSerieCaracter06(int altura){
